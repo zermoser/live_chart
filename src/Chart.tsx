@@ -90,12 +90,12 @@ const Chart: React.FC = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="bg-white shadow-lg rounded-lg w-full p-6 mt-6 mx-4 sm:mx-20"> {/* Adjust margin for larger screens */}
-        <h2 className="text-2xl font-semibold mb-6 text-center">Top Population Ranking: Year {currentYear}</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-center">Top Population Ranking: Year <span className='text-blue-600'>{currentYear}</span></h2>
 
-        <div className="flex justify-center mb-6 items-center space-x-4">
+        <div className="flex flex-col sm:flex-row justify-center mb-6 space-y-4 sm:space-y-0 sm:space-x-4 items-center">
           <button
             onClick={handleStartStop}
-            className={`px-10 py-2 rounded-lg shadow-lg text-white font-semibold transition-all duration-300 ${isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-blue-500 hover:bg-blue-600'}`}
+            className={`w-full sm:w-auto px-10 py-2 rounded-lg shadow-lg text-white font-semibold transition-all duration-300 ${isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-blue-500 hover:bg-blue-600'}`}
           >
             {isRunning ? 'Stop' : 'Start'}
           </button>
@@ -141,7 +141,7 @@ const Chart: React.FC = () => {
             <tbody>
               {topCountriesData.map((data, idx) => (
                 <tr key={idx}>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right hidden sm:table-cell"  style={{ color: data.color === '#000' ? '#ccc' : data.color }}>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right hidden sm:table-cell" style={{ color: data.color === '#000' ? '#ccc' : data.color }}>
                     {data.country}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
