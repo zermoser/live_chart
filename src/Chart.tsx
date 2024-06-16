@@ -11,7 +11,7 @@ interface PopulationEntry {
 
 const Chart: React.FC = () => {
   const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
-  const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; }[]>([]);
+  const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; color: string; }[]>([]);
 
   // Fetch data from db.json (in real app, you might fetch from an API)
   useEffect(() => {
@@ -30,7 +30,8 @@ const Chart: React.FC = () => {
       const sortedCountries = Object.keys(countriesPopulation).sort((a, b) => countriesPopulation[b] - countriesPopulation[a]).slice(0, 12);
       const topCountriesDataForYear = sortedCountries.map(country => ({
         country,
-        population: countriesPopulation[country]
+        population: countriesPopulation[country],
+        color: filteredData.find(entry => entry.CountryName === country)?.color || '#000' // Default color if not found
       }));
 
       setTopCountriesData(topCountriesDataForYear);
@@ -59,7 +60,7 @@ const Chart: React.FC = () => {
               <div key={idx} className="bar-item flex items-center mb-3">
                 <div className="bar-label">{data.country}</div>
                 <div className="bar-wrapper flex-grow">
-                  <div className="bar bg-green-500" style={{ width: `${(data.population / 1000000) * 100}%` }}>
+                  <div className="bar" style={{ width: `${(data.population / 1000000) * 100}%`, backgroundColor: data.color }}>
                     <span className="text-white">{data.population}</span>
                   </div>
                 </div>
