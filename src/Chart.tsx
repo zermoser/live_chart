@@ -71,7 +71,9 @@ const Chart: React.FC = () => {
                 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">
                   Country
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-4/5">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-3/5">
+                </th>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">
                   Population
                 </th>
               </tr>
@@ -79,15 +81,15 @@ const Chart: React.FC = () => {
             <tbody className="bg-white divide-y divide-gray-200">
               {topCountriesData.map((data, idx) => (
                 <tr key={idx}>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 w-1/5">{data.country}</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 w-4/5">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{data.country}</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                     <div className="flex items-center space-x-4">
                       <div className="w-full bg-gray-300 rounded-full overflow-hidden h-4">
                         <div className="rounded-full h-4" style={{ width: `${(data.population / worldPopulation) * 500}%`, backgroundColor: data.color === '#000' ? '#ccc' : data.color }}></div>
                       </div>
-                      <span className="ml-2">{formatPopulation(data.population)}</span>
                     </div>
                   </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{formatPopulation(data.population)}</td>
                 </tr>
               ))}
             </tbody>
