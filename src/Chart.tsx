@@ -48,7 +48,7 @@ const Chart: React.FC = () => {
     filterDataByYear(currentYear);
 
     // Interval to update year every speed ms if isRunning is true
-    let interval: NodeJS.Timeout | null = null;
+    let interval = null;
     if (isRunning) {
       interval = setInterval(() => {
         setCurrentYear(prevYear => {
@@ -89,7 +89,7 @@ const Chart: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center">
-      <div className="bg-white shadow-lg rounded-lg w-full p-6 mt-6 mx-20">
+      <div className="bg-white shadow-lg rounded-lg w-full p-6 mt-6 mx-4 sm:mx-20"> {/* Adjust margin for larger screens */}
         <h2 className="text-2xl font-semibold mb-6 text-center">Top Population Ranking: Year {currentYear}</h2>
 
         <div className="flex justify-center mb-6 items-center space-x-4">
@@ -125,14 +125,15 @@ const Chart: React.FC = () => {
           </div>
         </div>
 
-        <div className="table-container">
+        <div className="table-container overflow-x-auto">
           <table className="w-full">
             <thead>
               <tr>
-                <th scope="col" className="px-6 pb-2 text-right text-lg font-medium w-1/5">
+                {/* Hide Country column on small screens */}
+                <th scope="col" className="px-6 pb-2 text-right text-lg font-medium hidden sm:table-cell w-1/5">
                   Country
                 </th>
-                <th scope="col" className="px-6 pb-2 text-left text-lg font-medium w-4/5">
+                <th scope="col" className="px-6 pb-2 text-left text-lg font-medium sm:w-full w-4/5">
                   Population
                 </th>
               </tr>
@@ -140,10 +141,12 @@ const Chart: React.FC = () => {
             <tbody>
               {topCountriesData.map((data, idx) => (
                 <tr key={idx}>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right" style={{ color: data.color === '#000' ? '#ccc' : data.color }}>{data.country}</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right hidden sm:table-cell"  style={{ color: data.color === '#000' ? '#ccc' : data.color }}>
+                    {data.country}
+                  </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                     <div className="flex items-center space-x-4">
-                      <div className="w-full overflow-hidden h-4 relative">
+                      <div className="w-full h-4 relative">
                         <div className="h-full flex items-center justify-end pr-2" style={{ width: `${(data.population / worldPopulation) * 500}%`, backgroundColor: data.color === '#000' ? '#ccc' : data.color }}>
                           <span className="text-white text-xs font-medium">{formatPopulation(data.population)}</span>
                         </div>
