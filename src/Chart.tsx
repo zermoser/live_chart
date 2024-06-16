@@ -1,52 +1,75 @@
-import React from 'react';
-import data from './db.json'; 
+import React, { useState, useEffect } from 'react';
+import data from './db.json'; // Adjust path as per your project structure
 
-type PopulationEntry = {
+// Define TypeScript types for data structure
+interface PopulationEntry {
   CountryName: string;
   Year: string;
   Population: string;
   color: string;
-};
+}
 
-const ChartComponent: React.FC = () => {
-  // Transform data for CSS-based bar chart
-  const countriesData: { [key: string]: { year: string, population: number }[] } = data.population.reduce((acc, entry: PopulationEntry) => {
-    if (!acc[entry.CountryName]) {
-      acc[entry.CountryName] = [];
-    }
-    acc[entry.CountryName].push({ year: entry.Year, population: parseInt(entry.Population) });
-    return acc;
-  }, {});
+const Chart: React.FC = () => {
+  const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
+  const [topCountriesData, setTopCountriesData] = useState<{ [key: string]: number }[]>([]);
 
-  // Sort countries by total population (descending order)
-  const sortedCountries = Object.keys(countriesData).sort((a, b) => {
-    const totalA = countriesData[a].reduce((total, entry) => total + entry.population, 0);
-    const totalB = countriesData[b].reduce((total, entry) => total + entry.population, 0);
-    return totalB - totalA;
-  });
+  // Fetch data from db.json (in real app, you might fetch from an API)
+  useEffect(() => {
+    // Function to filter and process data for the current year
+    const filterDataByYear = (year: number): void => {
+      const filteredData = data.population.filter((entry: PopulationEntry) => parseInt(entry.Year) === year);
+
+      // Process data to calculate population for each country in the current year
+      const countriesPopulation: { [key: string]: number } = {};
+      filteredData.forEach((entry: PopulationEntry) => {
+        const { CountryName, Population } = entry;
+        countriesPopulation[CountryName] = (countriesPopulation[CountryName] || 0) + parseInt(Population);
+      });
+
+      // Convert to array and sort by population descending, then take top 12
+      const sortedCountries = Object.keys(countriesPopulation).sort((a, b) => countriesPopulation[b] - countriesPopulation[a]).slice(0, 12);
+      const topCountriesDataForYear = sortedCountries.map(country => ({
+        country,
+        population: countriesPopulation[country]
+      }));
+
+      setTopCountriesData(topCountriesDataForYear);
+    };
+
+    // Interval to update year every 1 second
+    const interval = setInterval(() => {
+      filterDataByYear(currentYear);
+      setCurrentYear(prevYear => (prevYear < 2021 ? prevYear + 1 : 1950)); // Wrap around to 1950 after 2021
+    }, 1000);
+
+    // Initial data fetch for the starting year
+    filterDataByYear(currentYear);
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(interval);
+  }, [currentYear]); // Dependency array ensures effect runs on year change
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
-      <div className="bg-white shadow-lg rounded-lg overflow-hidden w-96 p-4">
-        <h2 className="text-xl font-semibold mb-4">Population Bar Chart</h2>
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-3xl p-4">
+        <h2 className="text-xl font-semibold mb-4 text-center">Top 12 Population Ranking: Year {currentYear}</h2>
         <div className="chart-container">
-          {sortedCountries.map((country, index) => (
-            <div
-              key={index}
-              className="bar flex items-center justify-between mb-2"
-              style={{
-                background: data.population.find((entry: PopulationEntry) => entry.CountryName === country)?.color || '#000',
-                width: `${countriesData[country][0].population / 1000000}rem` // Adjust width based on population
-              }}
-            >
-              <span className="text-white px-2">{country}</span>
-              <span className="text-white px-2">{countriesData[country][0].population}</span>
-            </div>
-          ))}
+          <div className="bars-container">
+            {topCountriesData.map((data, idx) => (
+              <div key={idx} className="bar-item flex items-center mb-3">
+                <div className="bar-label">{data.country}</div>
+                <div className="bar-wrapper flex-grow">
+                  <div className="bar bg-green-500" style={{ width: `${(data.population / 1000000) * 100}%` }}>
+                    <span className="text-white">{data.population}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default ChartComponent;
+export default Chart;
