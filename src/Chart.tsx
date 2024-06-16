@@ -152,6 +152,14 @@ const Chart: React.FC = () => {
                         </div>
                       </div>
                     </div>
+                    {/* Display only on mobile screens */}
+                    <div className="flex items-center space-x-4 sm:hidden">
+                      <div className="w-full h-4 relative">
+                        <div className="h-full flex items-center justify-start" style={{ width: `${(data.population / worldPopulation) * 500}%`, backgroundColor: '#fff' }}>
+                          <span className="text-xs font-medium" style={{ color: data.color === '#000' ? '#ccc' : data.color }}>{data.country}</span>
+                        </div>
+                      </div>
+                    </div>
                   </td>
                 </tr>
               ))}
