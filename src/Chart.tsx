@@ -71,11 +71,8 @@ const Chart: React.FC = () => {
                 <th scope="col" className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">
                   Country
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-3/5">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-4/5">
                   Population
-                </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">
-                  Population Value
                 </th>
               </tr>
             </thead>
@@ -85,12 +82,13 @@ const Chart: React.FC = () => {
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right">{data.country}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                     <div className="flex items-center space-x-4">
-                      <div className="w-full bg-gray-300 rounded-full overflow-hidden h-4">
-                        <div className="rounded-full h-4" style={{ width: `${(data.population / worldPopulation) * 500}%`, backgroundColor: data.color === '#000' ? '#ccc' : data.color }}></div>
+                      <div className="w-full overflow-hidden h-4 relative">
+                        <div className="h-full flex items-center justify-end pr-2" style={{ width: `${(data.population / worldPopulation) * 500}%`, backgroundColor: data.color === '#000' ? '#ccc' : data.color }}>
+                          <span className="text-white text-xs font-medium">{formatPopulation(data.population)}</span>
+                        </div>
                       </div>
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{formatPopulation(data.population)}</td>
                 </tr>
               ))}
             </tbody>
