@@ -62,7 +62,7 @@ const Chart: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
-      <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-4xl p-4">
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full p-4 my-10 mx-20">
         <h2 className="text-xl font-semibold mb-4 text-center">Top 12 Population Ranking: Year {currentYear}</h2>
         <div className="table-container">
           <table className="min-w-full divide-y divide-gray-200">
