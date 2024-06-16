@@ -11,6 +11,8 @@ interface PopulationEntry {
 
 const Chart: React.FC = () => {
   const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
+  const [isRunning, setIsRunning] = useState<boolean>(false);
+  const [speed, setSpeed] = useState<number>(1000); // Initial speed: 1 second
   const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; color: string; }[]>([]);
   const [worldPopulation, setWorldPopulation] = useState<number>(0);
 
@@ -42,35 +44,90 @@ const Chart: React.FC = () => {
       setTopCountriesData(topCountriesDataForYear);
     };
 
-    // Interval to update year every 1 second
-    const interval = setInterval(() => {
-      filterDataByYear(currentYear);
-      setCurrentYear(prevYear => (prevYear < 2021 ? prevYear + 1 : 1950)); // Wrap around to 1950 after 2021
-    }, 1000);
-
     // Initial data fetch for the starting year
     filterDataByYear(currentYear);
 
-    // Cleanup interval on component unmount
-    return () => clearInterval(interval);
-  }, [currentYear]); // Dependency array ensures effect runs on year change
+    // Interval to update year every speed ms if isRunning is true
+    let interval = null;
+    if (isRunning) {
+      interval = setInterval(() => {
+        setCurrentYear(prevYear => {
+          const nextYear = prevYear < 2021 ? prevYear + 1 : 1950; // Wrap around to 1950 after 2021
+          filterDataByYear(nextYear);
+          return nextYear;
+        });
+      }, speed);
+    }
+
+    // Cleanup interval on component unmount or isRunning/speed change
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [currentYear, isRunning, speed]); // Dependency array ensures effect runs on year, isRunning or speed change
 
   // Utility function to format population numbers with commas
   const formatPopulation = (value: number): string => {
     return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };
 
+  // Toggle start/stop
+  const handleStartStop = () => {
+    setIsRunning(prev => !prev);
+  };
+
+  // Handle year selection change
+  const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedYear = parseInt(event.target.value);
+    setCurrentYear(selectedYear);
+  };
+
+  // Handle speed change
+  const handleSpeedChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedSpeed = parseInt(event.target.value);
+    setSpeed(selectedSpeed);
+  };
+
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
-      <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full p-4 my-10 mx-20">
-        <h2 className="text-xl font-semibold mb-4 text-center">Top 12 Population Ranking: Year {currentYear}</h2>
+    <div className="flex justify-center items-center">
+      <div className="bg-white shadow-lg rounded-lg w-full p-6 mt-6 mx-20">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Top Population Ranking: Year {currentYear}</h2>
+
+        <div className="flex justify-center mb-6">
+          <button
+            onClick={handleStartStop}
+            className={`px-6 py-2 rounded-lg shadow-lg text-white font-semibold transition-all duration-300 ${isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-blue-500 hover:bg-blue-600'}`}
+          >
+            {isRunning ? 'Stop' : 'Start'}
+          </button>
+          <select
+            value={currentYear}
+            onChange={handleYearChange}
+            className="ml-4 border border-gray-300 rounded-lg px-10 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            {Array.from({ length: 2022 - 1950 }, (_, i) => 1950 + i).map(year => (
+              <option key={year} value={year}>{year}</option>
+            ))}
+          </select>
+          <select
+            value={speed}
+            onChange={handleSpeedChange}
+            className="ml-4 border border-gray-300 rounded-lg px-10 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value={2000}>Slow</option>
+            <option value={1000}>Normal</option>
+            <option value={500}>Fast</option>
+          </select>
+        </div>
+
         <div className="table-container">
           <table className="w-full">
             <thead>
               <tr>
-                <th scope="col" className="px-6 py-3 text-right text-xs font-medium w-1/5">
+                <th scope="col" className="px-6 pb-2 text-right text-lg font-medium w-1/5">
+                  Country
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium w-4/5">
+                <th scope="col" className="px-6 pb-2 text-left text-lg font-medium w-4/5">
+                  Population
                 </th>
               </tr>
             </thead>

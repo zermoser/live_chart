@@ -3,7 +3,7 @@ import Chart from './Chart';
 
 const App: React.FC = () => {
   return (
-    <div className="container h-full">
+    <div className="w-full bg-gray-100 h-[880px]">
       <Chart />
     </div>
   );
