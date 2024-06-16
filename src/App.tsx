@@ -1,12 +1,12 @@
 import React from 'react';
-import Chart from './Chart';
+import Home from './pages/Home';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Chart />
+      <Home />
     </div>
   );
-};
+}
 
 export default App;

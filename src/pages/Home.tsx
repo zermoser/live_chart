@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import data from './db.json'; // Adjust path as per your project structure
+import data from '../assets/db.json';
 
 // Define TypeScript types for data structure
 interface PopulationEntry {
@@ -9,7 +9,7 @@ interface PopulationEntry {
   color: string;
 }
 
-const Chart: React.FC = () => {
+const Home: React.FC = () => {
   const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
   const [isRunning, setIsRunning] = useState<boolean>(true); // Start running automatically
   const [speed, setSpeed] = useState<number>(100); // Initial speed: Fast
@@ -172,4 +172,4 @@ const Chart: React.FC = () => {
   );
 };
 
-export default Chart;
+export default Home;
