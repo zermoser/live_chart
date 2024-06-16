@@ -46,7 +46,7 @@ const Chart: React.FC = () => {
     const interval = setInterval(() => {
       filterDataByYear(currentYear);
       setCurrentYear(prevYear => (prevYear < 2021 ? prevYear + 1 : 1950)); // Wrap around to 1950 after 2021
-    }, 100);
+    }, 1000);
 
     // Initial data fetch for the starting year
     filterDataByYear(currentYear);
@@ -77,7 +77,7 @@ const Chart: React.FC = () => {
             <tbody>
               {topCountriesData.map((data, idx) => (
                 <tr key={idx}>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right">{data.country}</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right" style={{ color: data.color === '#000' ? '#ccc' : data.color }}>{data.country}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                     <div className="flex items-center space-x-4">
                       <div className="w-full overflow-hidden h-4 relative">
