@@ -55,23 +55,43 @@ const Chart: React.FC = () => {
     return () => clearInterval(interval);
   }, [currentYear]); // Dependency array ensures effect runs on year change
 
+  // Utility function to format population numbers with commas
+  const formatPopulation = (value: number): string => {
+    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  };
+
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
-      <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-3xl p-4">
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-4xl p-4">
         <h2 className="text-xl font-semibold mb-4 text-center">Top 12 Population Ranking: Year {currentYear}</h2>
-        <div className="chart-container">
-          <div className="bars-container">
-            {topCountriesData.map((data, idx) => (
-              <div key={idx} className="bar-item flex items-center mb-3">
-                <div className="bar-label">{data.country}</div>
-                <div className="bar-wrapper flex-grow">
-                  <div className="bar" style={{ width: `${(data.population / worldPopulation) * 100}%`, backgroundColor: data.color }}>
-                    <span className="text-white">{data.population}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className="table-container">
+          <table className="min-w-full divide-y divide-gray-200">
+            <thead className="bg-gray-50">
+              <tr>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">
+                  Country
+                </th>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-4/5">
+                  Population
+                </th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
+              {topCountriesData.map((data, idx) => (
+                <tr key={idx}>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 w-1/5">{data.country}</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 w-4/5">
+                    <div className="flex items-center space-x-4">
+                      <div className="w-full bg-gray-300 rounded-full overflow-hidden h-4">
+                        <div className="rounded-full h-4" style={{ width: `${(data.population / worldPopulation) * 500}%`, backgroundColor: data.color === '#000' ? '#ccc' : data.color }}></div>
+                      </div>
+                      <span className="ml-2">{formatPopulation(data.population)}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
