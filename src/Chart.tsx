@@ -11,7 +11,7 @@ interface PopulationEntry {
 
 const Chart: React.FC = () => {
   const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
-  const [topCountriesData, setTopCountriesData] = useState<{ [key: string]: number }[]>([]);
+  const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; }[]>([]);
 
   // Fetch data from db.json (in real app, you might fetch from an API)
   useEffect(() => {
