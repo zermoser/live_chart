@@ -12,12 +12,17 @@ interface PopulationEntry {
 const Chart: React.FC = () => {
   const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
   const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; color: string; }[]>([]);
+  const [worldPopulation, setWorldPopulation] = useState<number>(0);
 
   // Fetch data from db.json (in real app, you might fetch from an API)
   useEffect(() => {
     // Function to filter and process data for the current year
     const filterDataByYear = (year: number): void => {
       const filteredData = data.population.filter((entry: PopulationEntry) => parseInt(entry.Year) === year);
+
+      // Calculate total world population for the current year
+      const totalPopulation = filteredData.reduce((total, entry) => total + parseInt(entry.Population), 0);
+      setWorldPopulation(totalPopulation);
 
       // Process data to calculate population for each country in the current year
       const countriesPopulation: { [key: string]: number } = {};
@@ -60,7 +65,7 @@ const Chart: React.FC = () => {
               <div key={idx} className="bar-item flex items-center mb-3">
                 <div className="bar-label">{data.country}</div>
                 <div className="bar-wrapper flex-grow">
-                  <div className="bar" style={{ width: `${(data.population / 1000000) * 100}%`, backgroundColor: data.color }}>
+                  <div className="bar" style={{ width: `${(data.population / worldPopulation) * 100}%`, backgroundColor: data.color }}>
                     <span className="text-white">{data.population}</span>
                   </div>
                 </div>
