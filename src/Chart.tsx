@@ -11,8 +11,8 @@ interface PopulationEntry {
 
 const Chart: React.FC = () => {
   const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
-  const [isRunning, setIsRunning] = useState<boolean>(false);
-  const [speed, setSpeed] = useState<number>(1000); // Initial speed: 1 second
+  const [isRunning, setIsRunning] = useState<boolean>(true); // Start running automatically
+  const [speed, setSpeed] = useState<number>(500); // Initial speed: Fast
   const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; color: string; }[]>([]);
   const [worldPopulation, setWorldPopulation] = useState<number>(0);
 
@@ -48,7 +48,7 @@ const Chart: React.FC = () => {
     filterDataByYear(currentYear);
 
     // Interval to update year every speed ms if isRunning is true
-    let interval = null;
+    let interval: NodeJS.Timeout | null = null;
     if (isRunning) {
       interval = setInterval(() => {
         setCurrentYear(prevYear => {
@@ -92,31 +92,37 @@ const Chart: React.FC = () => {
       <div className="bg-white shadow-lg rounded-lg w-full p-6 mt-6 mx-20">
         <h2 className="text-2xl font-semibold mb-6 text-center">Top Population Ranking: Year {currentYear}</h2>
 
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-6 items-center space-x-4">
           <button
             onClick={handleStartStop}
-            className={`px-6 py-2 rounded-lg shadow-lg text-white font-semibold transition-all duration-300 ${isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-blue-500 hover:bg-blue-600'}`}
+            className={`px-10 py-2 rounded-lg shadow-lg text-white font-semibold transition-all duration-300 ${isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-blue-500 hover:bg-blue-600'}`}
           >
             {isRunning ? 'Stop' : 'Start'}
           </button>
-          <select
-            value={currentYear}
-            onChange={handleYearChange}
-            className="ml-4 border border-gray-300 rounded-lg px-10 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            {Array.from({ length: 2022 - 1950 }, (_, i) => 1950 + i).map(year => (
-              <option key={year} value={year}>{year}</option>
-            ))}
-          </select>
-          <select
-            value={speed}
-            onChange={handleSpeedChange}
-            className="ml-4 border border-gray-300 rounded-lg px-10 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            <option value={2000}>Slow</option>
-            <option value={1000}>Normal</option>
-            <option value={500}>Fast</option>
-          </select>
+          <div className="flex items-center">
+            <span className="font-semibold mr-2">Year:</span>
+            <select
+              value={currentYear}
+              onChange={handleYearChange}
+              className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              {Array.from({ length: 2022 - 1950 }, (_, i) => 1950 + i).map(year => (
+                <option key={year} value={year}>{year}</option>
+              ))}
+            </select>
+          </div>
+          <div className="flex items-center">
+            <span className="font-semibold mr-2">Speed:</span>
+            <select
+              value={speed}
+              onChange={handleSpeedChange}
+              className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value={2000}>Slow</option>
+              <option value={1000}>Normal</option>
+              <option value={500}>Fast</option>
+            </select>
+          </div>
         </div>
 
         <div className="table-container">
