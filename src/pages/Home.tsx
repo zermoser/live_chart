@@ -104,6 +104,7 @@ const Home: React.FC = () => {
             <select
               value={currentYear}
               onChange={handleYearChange}
+              disabled={isRunning}
               className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               {Array.from({ length: 2022 - 1950 }, (_, i) => 1950 + i).map(year => (
@@ -116,6 +117,7 @@ const Home: React.FC = () => {
             <select
               value={speed}
               onChange={handleSpeedChange}
+              disabled={isRunning}
               className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value={2000}>Slow</option>
