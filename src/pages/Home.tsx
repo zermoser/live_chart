@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import data from '../assets/db.json';
 
-// Define TypeScript types for data structure
 interface PopulationEntry {
   CountryName: string;
   Year: string;
@@ -16,7 +15,7 @@ const Home: React.FC = () => {
   const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; color: string; }[]>([]);
   const [worldPopulation, setWorldPopulation] = useState<number>(0);
 
-  // Fetch data from db.json (in real app, you might fetch from an API)
+  // Fetch data from db.json
   useEffect(() => {
     // Function to filter and process data for the current year
     const filterDataByYear = (year: number): void => {
