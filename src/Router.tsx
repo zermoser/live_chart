@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import Home from './pages/Home';
+import Home2 from './pages/HomeJson';
 import Redirect404 from './pages/Redirect404';
 
 export const router = createBrowserRouter([
@@ -11,6 +12,10 @@ export const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/home2",
+    element: <Home2 />,
   },
   {
     path: "*",
