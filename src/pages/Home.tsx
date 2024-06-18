@@ -121,7 +121,7 @@ const Home: React.FC = () => {
               disabled={isRunning}
               className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              {Array.from({ length: 2022 - 1950 + 1 }, (_, i) => 1950 + i).map(year => (
+              {Array.from({ length: 2022 - 1950 }, (_, i) => 1950 + i).map(year => (
                 <option key={year} value={year}>{year}</option>
               ))}
             </select>
