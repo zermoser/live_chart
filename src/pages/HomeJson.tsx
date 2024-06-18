@@ -1,105 +1,90 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import axios from 'axios';
+import React, { useState, useEffect } from 'react';
+import data from '../assets/db.json';
 
 interface PopulationEntry {
   CountryName: string;
   Year: string;
   Population: string;
   color: string;
-  data: object;
-}
-
-interface CountryData {
-  country: string;
-  population: number;
-  color: string;
 }
 
 const Home: React.FC = () => {
-  const [currentYear, setCurrentYear] = useState<number>(1950);
-  const [isRunning, setIsRunning] = useState<boolean>(true);
-  const [speed, setSpeed] = useState<number>(100);
-  const [topCountriesData, setTopCountriesData] = useState<CountryData[]>([]);
+  const [currentYear, setCurrentYear] = useState<number>(1950); // Initial year
+  const [isRunning, setIsRunning] = useState<boolean>(true); // Start running automatically
+  const [speed, setSpeed] = useState<number>(100); // Initial speed: Fast
+  const [topCountriesData, setTopCountriesData] = useState<{ country: string; population: number; color: string; }[]>([]);
   const [worldPopulation, setWorldPopulation] = useState<number>(0);
-  const [data, setData] = useState<{ population: PopulationEntry[] } | null>(null);
 
+  // Fetch data from db.json
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get<{ population: PopulationEntry[] }>('http://localhost:5001/api/getPopulation');
-        setData(response.data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
+    // Function to filter and process data for the current year
+    const filterDataByYear = (year: number): void => {
+      const filteredData = data.population.filter((entry: PopulationEntry) => parseInt(entry.Year) === year);
+
+      // Calculate total world population for the current year
+      const totalPopulation = filteredData.reduce((total, entry) => total + parseInt(entry.Population), 0);
+      setWorldPopulation(totalPopulation);
+
+      // Process data to calculate population for each country in the current year
+      const countriesPopulation: { [key: string]: number } = {};
+      filteredData.forEach((entry: PopulationEntry) => {
+        const { CountryName, Population } = entry;
+        countriesPopulation[CountryName] = (countriesPopulation[CountryName] || 0) + parseInt(Population);
+      });
+
+      // Convert to array and sort by population descending, then take top 12
+      const sortedCountries = Object.keys(countriesPopulation).sort((a, b) => countriesPopulation[b] - countriesPopulation[a]).slice(0, 12);
+      const topCountriesDataForYear = sortedCountries.map(country => ({
+        country,
+        population: countriesPopulation[country],
+        color: filteredData.find(entry => entry.CountryName === country)?.color || '#000' // Default color if not found
+      }));
+
+      setTopCountriesData(topCountriesDataForYear);
     };
 
-    fetchData();
-  }, []);
+    // Initial data fetch for the starting year
+    filterDataByYear(currentYear);
 
-  const filterDataByYear = useCallback((year: number, populationData: PopulationEntry[]): void => {
-    const filteredData = populationData.filter((entry: PopulationEntry) => parseInt(entry.Year) === year);
-
-    const totalPopulation = filteredData.reduce((total: number, entry: PopulationEntry) => total + parseInt(entry.Population), 0);
-    setWorldPopulation(totalPopulation);
-
-    const countriesPopulation: { [key: string]: number } = {};
-    filteredData.forEach((entry: PopulationEntry) => {
-      const { CountryName, Population } = entry;
-      countriesPopulation[CountryName] = (countriesPopulation[CountryName] || 0) + parseInt(Population);
-    });
-
-    const sortedCountries = Object.keys(countriesPopulation).sort((a, b) => countriesPopulation[b] - countriesPopulation[a]).slice(0, 12);
-    const topCountriesDataForYear = sortedCountries.map(country => ({
-      country,
-      population: countriesPopulation[country],
-      color: filteredData.find(entry => entry.CountryName === country)?.color || '#000'
-    }));
-
-    setTopCountriesData(topCountriesDataForYear);
-  }, []);
-
-  useEffect(() => {
-    if (data) {
-      filterDataByYear(currentYear, data.population);
-    }
-  }, [currentYear, data, filterDataByYear]);
-
-  useEffect(() => {
+    // Interval to update year every speed ms if isRunning is true
     let interval = null;
     if (isRunning) {
       interval = setInterval(() => {
         setCurrentYear(prevYear => {
-          const nextYear = prevYear < 2021 ? prevYear + 1 : 1950;
-          filterDataByYear(nextYear, data?.population || []);
+          const nextYear = prevYear < 2021 ? prevYear + 1 : 1950; // Wrap around to 1950 after 2021
+          filterDataByYear(nextYear);
           return nextYear;
         });
       }, speed);
     }
 
+    // Cleanup interval on component unmount or isRunning/speed change
     return () => {
       if (interval) clearInterval(interval);
     };
-  }, [isRunning, speed, filterDataByYear, data]);
+  }, [currentYear, isRunning, speed]); // Dependency array ensures effect runs on year, isRunning or speed change
 
+  // Utility function to format population numbers with commas
   const formatPopulation = (value: number): string => {
     return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };
 
+  // Toggle start/stop
   const handleStartStop = () => {
     setIsRunning(prev => !prev);
   };
 
+  // Handle year selection change
   const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedYear = parseInt(event.target.value);
     setCurrentYear(selectedYear);
   };
 
+  // Handle speed change
   const handleSpeedChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedSpeed = parseInt(event.target.value);
     setSpeed(selectedSpeed);
   };
-
-  if (!data) return <div>Loading...</div>;
 
   return (
     <div className="flex justify-center w-full h-auto bg-gray-100 pb-6">
@@ -121,7 +106,7 @@ const Home: React.FC = () => {
               disabled={isRunning}
               className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              {Array.from({ length: 2022 - 1950 + 1 }, (_, i) => 1950 + i).map(year => (
+              {Array.from({ length: 2022 - 1950 }, (_, i) => 1950 + i).map(year => (
                 <option key={year} value={year}>{year}</option>
               ))}
             </select>
@@ -146,6 +131,7 @@ const Home: React.FC = () => {
           <table className="w-full">
             <thead>
               <tr>
+                {/* Hide Country column on small screens */}
                 <th scope="col" className="px-6 pb-2 text-right text-lg font-medium hidden lg:table-cell w-1/5">
                   Country
                 </th>
@@ -168,6 +154,7 @@ const Home: React.FC = () => {
                         </div>
                       </div>
                     </div>
+                    {/* Display only on mobile screens */}
                     <div className="flex items-center space-x-4 lg:hidden">
                       <div className="w-full h-4 relative">
                         <div className="h-full flex items-center justify-start" style={{ width: `${(data.population / worldPopulation) * 500}%`, backgroundColor: '#fff' }}>
