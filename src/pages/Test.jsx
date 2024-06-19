@@ -12,13 +12,13 @@ const Test = () => {
     const filteredData = data
       .filter(item => item.year === year.toString())
       .map(item => ({
-        id: item.title,
+        id: item.id,
         title: item.title,
         value: parseInt(item.value),
         color: item.color,
       }))
       .sort((a, b) => b.value - a.value)
-      .slice(0, 12); // Ensure only top 12 entries are returned
+      .slice(0, 12);
     setCountryData(filteredData);
   };
 
@@ -92,7 +92,7 @@ const Test = () => {
             itemHeight={58}
             titleStyle={{ font: 'normal 400 13px Arial', color: '#000' }}
             valueStyle={{ font: 'normal 400 11px Arial', color: 'rgba(0, 0, 0, 0.42)' }}
-            animationDuration={speed} // Ensure animation duration matches the update speed
+            animationDuration={speed}
           />
         </div>
       </div>
