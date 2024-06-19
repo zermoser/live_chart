@@ -5,14 +5,14 @@ import data from '../assets/db5.json';
 const Test = () => {
   const [currentYear, setCurrentYear] = useState(1950);
   const [isRunning, setIsRunning] = useState(true);
-  const [speed, setSpeed] = useState(1000);
+  const [speed, setSpeed] = useState(100);
   const [countryData, setCountryData] = useState([]);
 
   const filterDataByYear = (year) => {
     const filteredData = data
       .filter(item => item.year === year.toString())
-      .map(item => ({
-        id: item.id,
+      .map((item,index) => ({
+        id: index,
         title: item.title,
         value: parseInt(item.value),
         color: item.color,
@@ -43,6 +43,18 @@ const Test = () => {
   const handleYearChange = (e) => setCurrentYear(parseInt(e.target.value));
   const handleSpeedChange = (e) => setSpeed(parseInt(e.target.value));
 
+  let chartWidth = 0; 
+
+  if (window.innerWidth >= 1280) {
+    chartWidth = 800;
+  } else if (window.innerWidth >= 960) {
+    chartWidth = 600;
+  } else if (window.innerWidth >= 600) {
+    chartWidth = 480;
+  } else {
+    chartWidth = 280;
+  }
+
   return (
     <div className="flex justify-center w-full h-auto bg-gray-100 pb-6">
       <div className="bg-white shadow-lg rounded-lg w-full p-6 mt-6 mx-4 sm:mx-20 h-auto">
@@ -56,19 +68,7 @@ const Test = () => {
           >
             {isRunning ? 'Stop' : 'Start'}
           </button>
-          <div className="flex items-center">
-            <span className="font-semibold mr-2">Year:</span>
-            <select
-              value={currentYear}
-              onChange={handleYearChange}
-              disabled={isRunning}
-              className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              {Array.from({ length: 2021 - 1950 + 1 }, (_, i) => 1950 + i).map(year => (
-                <option key={year} value={year}>{year}</option>
-              ))}
-            </select>
-          </div>
+
           <div className="flex items-center">
             <span className="font-semibold mr-2">Speed:</span>
             <select
@@ -82,12 +82,26 @@ const Test = () => {
               <option value={100}>Very Fast</option>
             </select>
           </div>
+
+          <div className="flex items-center">
+            <span className="font-semibold mr-2">Year:</span>
+            <select
+              value={currentYear}
+              onChange={handleYearChange}
+              disabled={isRunning}
+              className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              {Array.from({ length: 2021 - 1950 + 1 }, (_, i) => 1950 + i).map(year => (
+                <option key={year} value={year}>{year}</option>
+              ))}
+            </select>
+          </div>
         </div>
         <div className="mt-4">
           <ChartRace
             data={countryData}
-            backgroundColor='#fff'
-            width={760}
+            backgroundColor={'#fff'}
+            width={chartWidth}
             padding={12}
             itemHeight={58}
             titleStyle={{ font: 'normal 400 13px Arial', color: '#000' }}
