@@ -5,22 +5,21 @@ import data from '../assets/db5.json';
 const Test = () => {
   const [currentYear, setCurrentYear] = useState(1950);
   const [isRunning, setIsRunning] = useState(true);
-  const [speed, setSpeed] = useState(10000);
+  const [speed, setSpeed] = useState(1000);
   const [countryData, setCountryData] = useState([]);
 
   const filterDataByYear = (year) => {
-    const filteredData = data.filter(item => item.year === year.toString());
-
-    const intData = filteredData.map((item) => ({
-      id: item.title,
-      title: item.title,
-      value: parseInt(item.value),
-      color: item.color,
-    }));
-
-    const topTwelve = intData.sort((a, b) => b.value - a.value).slice(0, 12);
-
-    setCountryData(topTwelve);
+    const filteredData = data
+      .filter(item => item.year === year.toString())
+      .map(item => ({
+        id: item.title,
+        title: item.title,
+        value: parseInt(item.value),
+        color: item.color,
+      }))
+      .sort((a, b) => b.value - a.value)
+      .slice(0, 12);
+    setCountryData(filteredData);
   };
 
   useEffect(() => {
@@ -30,46 +29,22 @@ const Test = () => {
   useEffect(() => {
     if (isRunning) {
       const interval = setInterval(() => {
-        setCurrentYear(prevYear => {
-          const nextYear = prevYear < 2021 ? prevYear + 1 : 1950;
-          return nextYear;
-        });
+        setCurrentYear(prevYear => (prevYear < 2021 ? prevYear + 1 : 1950));
       }, speed);
-
       return () => clearInterval(interval);
     }
   }, [isRunning, speed]);
 
-  // Effect to update country data when the year changes and isRunning is true
-  useEffect(() => {
-    if (isRunning) {
-      filterDataByYear(currentYear);
-    }
-  }, [currentYear, isRunning]);
+  const handleStartStop = () => setIsRunning(prev => !prev);
+  const handleYearChange = (e) => setCurrentYear(parseInt(e.target.value));
+  const handleSpeedChange = (e) => setSpeed(parseInt(e.target.value));
 
-  // Handler to start/stop animation
-  const handleStartStop = () => {
-    setIsRunning(prev => !prev);
-  };
-
-  // Handler for year change
-  const handleYearChange = (event) => {
-    const selectedYear = parseInt(event.target.value);
-    setCurrentYear(selectedYear);
-  };
-
-  // Handler for speed change
-  const handleSpeedChange = (event) => {
-    const selectedSpeed = parseInt(event.target.value);
-    setSpeed(selectedSpeed);
-  };
-
-  // JSX return (equivalent to render method)
   return (
     <div className="flex justify-center w-full h-auto bg-gray-100 pb-6">
       <div className="bg-white shadow-lg rounded-lg w-full p-6 mt-6 mx-4 sm:mx-20 h-auto">
-        <h2 className="text-2xl font-semibold mb-6 text-center">Top Population Ranking: Year <span className='text-blue-600'>{currentYear}</span></h2>
-
+        <h2 className="text-2xl font-semibold mb-6 text-center">
+          Top Population Ranking: Year <span className='text-blue-600'>{currentYear}</span>
+        </h2>
         <div className="flex flex-col sm:flex-row justify-center mb-6 space-y-4 sm:space-y-0 sm:space-x-4 items-center">
           <button
             onClick={handleStartStop}
@@ -104,7 +79,6 @@ const Test = () => {
             </select>
           </div>
         </div>
-
         <div className="mt-4">
           <ChartRace
             data={countryData}
