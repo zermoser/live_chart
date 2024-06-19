@@ -1,0 +1,50 @@
+﻿[
+    {
+      "id": 1950,
+      "title": "China",
+      "value": 200,
+      "color": "#8B008B"
+    },
+    {
+      "id": 1951,
+      "title": "China",
+      "value": 300,
+      "color": "#8B008B"
+    },
+    {
+      "id": 1952,
+      "title": "China",
+      "value": 206,
+      "color": "#8B008B"
+    },
+    {
+      "id": 1953,
+      "title": "China",
+      "value": 304,
+      "color": "#8B008B"
+    },
+    {
+      "id": 1950,
+      "title": "Thailand",
+      "value": 555,
+      "color": "#4169E1"
+    },
+    {
+      "id": 1951,
+      "title": "Thailand",
+      "value": 111,
+      "color": "#4169E1"
+    },
+    {
+      "id": 1952,
+      "title": "Thailand",
+      "value": 222,
+      "color": "#4169E1"
+    },
+    {
+      "id": 1953,
+      "title": "Thailand",
+      "value": 444,
+      "color": "#4169E1"
+    }
+]
