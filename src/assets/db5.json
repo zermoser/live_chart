@@ -1,0 +1,7401 @@
+﻿[
+  {
+      "id": "1",
+      "year": "1970",
+      "title": "Africa (UN)",
+      "value": "365450100",
+      "color": "#1890FF"
+  },
+  {
+      "id": "2",
+      "year": "1971",
+      "title": "Africa (UN)",
+      "value": "375085860",
+      "color": "#1890FF"
+  },
+  {
+      "id": "3",
+      "year": "1972",
+      "title": "Africa (UN)",
+      "value": "384930400",
+      "color": "#1890FF"
+  },
+  {
+      "id": "4",
+      "year": "1973",
+      "title": "Africa (UN)",
+      "value": "395212030",
+      "color": "#1890FF"
+  },
+  {
+      "id": "5",
+      "year": "1974",
+      "title": "Africa (UN)",
+      "value": "406068830",
+      "color": "#1890FF"
+  },
+  {
+      "id": "6",
+      "year": "1975",
+      "title": "Africa (UN)",
+      "value": "417556640",
+      "color": "#1890FF"
+  },
+  {
+      "id": "7",
+      "year": "1976",
+      "title": "Africa (UN)",
+      "value": "429572930",
+      "color": "#1890FF"
+  },
+  {
+      "id": "8",
+      "year": "1977",
+      "title": "Africa (UN)",
+      "value": "441701400",
+      "color": "#1890FF"
+  },
+  {
+      "id": "9",
+      "year": "1978",
+      "title": "Africa (UN)",
+      "value": "454462700",
+      "color": "#1890FF"
+  },
+  {
+      "id": "10",
+      "year": "1979",
+      "title": "Africa (UN)",
+      "value": "467975870",
+      "color": "#1890FF"
+  },
+  {
+      "id": "11",
+      "year": "1980",
+      "title": "Africa (UN)",
+      "value": "481542800",
+      "color": "#1890FF"
+  },
+  {
+      "id": "12",
+      "year": "1981",
+      "title": "Africa (UN)",
+      "value": "495655330",
+      "color": "#1890FF"
+  },
+  {
+      "id": "13",
+      "year": "1982",
+      "title": "Africa (UN)",
+      "value": "510540220",
+      "color": "#1890FF"
+  },
+  {
+      "id": "14",
+      "year": "1983",
+      "title": "Africa (UN)",
+      "value": "525335040",
+      "color": "#1890FF"
+  },
+  {
+      "id": "15",
+      "year": "1984",
+      "title": "Africa (UN)",
+      "value": "540182800",
+      "color": "#1890FF"
+  },
+  {
+      "id": "16",
+      "year": "1985",
+      "title": "Africa (UN)",
+      "value": "555652600",
+      "color": "#1890FF"
+  },
+  {
+      "id": "17",
+      "year": "1986",
+      "title": "Africa (UN)",
+      "value": "571646400",
+      "color": "#1890FF"
+  },
+  {
+      "id": "18",
+      "year": "1987",
+      "title": "Africa (UN)",
+      "value": "588079700",
+      "color": "#1890FF"
+  },
+  {
+      "id": "19",
+      "year": "1988",
+      "title": "Africa (UN)",
+      "value": "604511200",
+      "color": "#1890FF"
+  },
+  {
+      "id": "20",
+      "year": "1989",
+      "title": "Africa (UN)",
+      "value": "621167600",
+      "color": "#1890FF"
+  },
+  {
+      "id": "21",
+      "year": "1990",
+      "title": "Africa (UN)",
+      "value": "638157250",
+      "color": "#1890FF"
+  },
+  {
+      "id": "22",
+      "year": "1991",
+      "title": "Africa (UN)",
+      "value": "655040500",
+      "color": "#1890FF"
+  },
+  {
+      "id": "23",
+      "year": "1992",
+      "title": "Africa (UN)",
+      "value": "671931500",
+      "color": "#1890FF"
+  },
+  {
+      "id": "24",
+      "year": "1993",
+      "title": "Africa (UN)",
+      "value": "689140000",
+      "color": "#1890FF"
+  },
+  {
+      "id": "25",
+      "year": "1994",
+      "title": "Africa (UN)",
+      "value": "706488260",
+      "color": "#1890FF"
+  },
+  {
+      "id": "26",
+      "year": "1995",
+      "title": "Africa (UN)",
+      "value": "724331650",
+      "color": "#1890FF"
+  },
+  {
+      "id": "27",
+      "year": "1996",
+      "title": "Africa (UN)",
+      "value": "742764740",
+      "color": "#1890FF"
+  },
+  {
+      "id": "28",
+      "year": "1997",
+      "title": "Africa (UN)",
+      "value": "761224450",
+      "color": "#1890FF"
+  },
+  {
+      "id": "29",
+      "year": "1998",
+      "title": "Africa (UN)",
+      "value": "779908030",
+      "color": "#1890FF"
+  },
+  {
+      "id": "30",
+      "year": "1999",
+      "title": "Africa (UN)",
+      "value": "799099300",
+      "color": "#1890FF"
+  },
+  {
+      "id": "31",
+      "year": "2000",
+      "title": "Africa (UN)",
+      "value": "818952060",
+      "color": "#1890FF"
+  },
+  {
+      "id": "32",
+      "year": "2001",
+      "title": "Africa (UN)",
+      "value": "839463900",
+      "color": "#1890FF"
+  },
+  {
+      "id": "33",
+      "year": "2002",
+      "title": "Africa (UN)",
+      "value": "860611460",
+      "color": "#1890FF"
+  },
+  {
+      "id": "34",
+      "year": "2003",
+      "title": "Africa (UN)",
+      "value": "882349250",
+      "color": "#1890FF"
+  },
+  {
+      "id": "35",
+      "year": "2004",
+      "title": "Africa (UN)",
+      "value": "904781300",
+      "color": "#1890FF"
+  },
+  {
+      "id": "36",
+      "year": "2005",
+      "title": "Africa (UN)",
+      "value": "927898100",
+      "color": "#1890FF"
+  },
+  {
+      "id": "37",
+      "year": "2006",
+      "title": "Africa (UN)",
+      "value": "951740300",
+      "color": "#1890FF"
+  },
+  {
+      "id": "38",
+      "year": "2007",
+      "title": "Africa (UN)",
+      "value": "976461440",
+      "color": "#1890FF"
+  },
+  {
+      "id": "39",
+      "year": "2008",
+      "title": "Africa (UN)",
+      "value": "1001981300",
+      "color": "#1890FF"
+  },
+  {
+      "id": "40",
+      "year": "2009",
+      "title": "Africa (UN)",
+      "value": "1028200260",
+      "color": "#1890FF"
+  },
+  {
+      "id": "41",
+      "year": "2010",
+      "title": "Africa (UN)",
+      "value": "1055233400",
+      "color": "#1890FF"
+  },
+  {
+      "id": "42",
+      "year": "2011",
+      "title": "Africa (UN)",
+      "value": "1082675800",
+      "color": "#1890FF"
+  },
+  {
+      "id": "43",
+      "year": "2012",
+      "title": "Africa (UN)",
+      "value": "1110797200",
+      "color": "#1890FF"
+  },
+  {
+      "id": "44",
+      "year": "2013",
+      "title": "Africa (UN)",
+      "value": "1140180600",
+      "color": "#1890FF"
+  },
+  {
+      "id": "45",
+      "year": "2014",
+      "title": "Africa (UN)",
+      "value": "1170299000",
+      "color": "#1890FF"
+  },
+  {
+      "id": "46",
+      "year": "2015",
+      "title": "Africa (UN)",
+      "value": "1201108000",
+      "color": "#1890FF"
+  },
+  {
+      "id": "47",
+      "year": "2016",
+      "title": "Africa (UN)",
+      "value": "1232111600",
+      "color": "#1890FF"
+  },
+  {
+      "id": "48",
+      "year": "2017",
+      "title": "Africa (UN)",
+      "value": "1263333800",
+      "color": "#1890FF"
+  },
+  {
+      "id": "49",
+      "year": "2018",
+      "title": "Africa (UN)",
+      "value": "1295265000",
+      "color": "#1890FF"
+  },
+  {
+      "id": "50",
+      "year": "2019",
+      "title": "Africa (UN)",
+      "value": "1327701100",
+      "color": "#1890FF"
+  },
+  {
+      "id": "51",
+      "year": "2020",
+      "title": "Africa (UN)",
+      "value": "1360677200",
+      "color": "#1890FF"
+  },
+  {
+      "id": "52",
+      "year": "2021",
+      "title": "Africa (UN)",
+      "value": "1393676400",
+      "color": "#1890FF"
+  },
+  {
+      "id": "53",
+      "year": "1950",
+      "title": "Asia (UN)",
+      "value": "1379048300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "54",
+      "year": "1951",
+      "title": "Asia (UN)",
+      "value": "1405644000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "55",
+      "year": "1952",
+      "title": "Asia (UN)",
+      "value": "1435002800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "56",
+      "year": "1953",
+      "title": "Asia (UN)",
+      "value": "1466384300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "57",
+      "year": "1954",
+      "title": "Asia (UN)",
+      "value": "1498736600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "58",
+      "year": "1955",
+      "title": "Asia (UN)",
+      "value": "1532902800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "59",
+      "year": "1956",
+      "title": "Asia (UN)",
+      "value": "1567477800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "60",
+      "year": "1957",
+      "title": "Asia (UN)",
+      "value": "1603627300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "61",
+      "year": "1958",
+      "title": "Asia (UN)",
+      "value": "1640462500",
+      "color": "#32CD32"
+  },
+  {
+      "id": "62",
+      "year": "1959",
+      "title": "Asia (UN)",
+      "value": "1672747900",
+      "color": "#32CD32"
+  },
+  {
+      "id": "63",
+      "year": "1960",
+      "title": "Asia (UN)",
+      "value": "1699525100",
+      "color": "#32CD32"
+  },
+  {
+      "id": "64",
+      "year": "1961",
+      "title": "Asia (UN)",
+      "value": "1725898900",
+      "color": "#32CD32"
+  },
+  {
+      "id": "65",
+      "year": "1962",
+      "title": "Asia (UN)",
+      "value": "1761233700",
+      "color": "#32CD32"
+  },
+  {
+      "id": "66",
+      "year": "1963",
+      "title": "Asia (UN)",
+      "value": "1807331300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "67",
+      "year": "1964",
+      "title": "Asia (UN)",
+      "value": "1855494700",
+      "color": "#32CD32"
+  },
+  {
+      "id": "68",
+      "year": "1965",
+      "title": "Asia (UN)",
+      "value": "1902211800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "69",
+      "year": "1966",
+      "title": "Asia (UN)",
+      "value": "1948659200",
+      "color": "#32CD32"
+  },
+  {
+      "id": "70",
+      "year": "1967",
+      "title": "Asia (UN)",
+      "value": "1994854000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "71",
+      "year": "1968",
+      "title": "Asia (UN)",
+      "value": "2043393500",
+      "color": "#32CD32"
+  },
+  {
+      "id": "72",
+      "year": "1969",
+      "title": "Asia (UN)",
+      "value": "2094302300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "73",
+      "year": "1970",
+      "title": "Asia (UN)",
+      "value": "2145547100",
+      "color": "#32CD32"
+  },
+  {
+      "id": "74",
+      "year": "1971",
+      "title": "Asia (UN)",
+      "value": "2196067800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "75",
+      "year": "1972",
+      "title": "Asia (UN)",
+      "value": "2246224600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "76",
+      "year": "1973",
+      "title": "Asia (UN)",
+      "value": "2297244400",
+      "color": "#32CD32"
+  },
+  {
+      "id": "77",
+      "year": "1974",
+      "title": "Asia (UN)",
+      "value": "2347595000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "78",
+      "year": "1975",
+      "title": "Asia (UN)",
+      "value": "2396020700",
+      "color": "#32CD32"
+  },
+  {
+      "id": "79",
+      "year": "1976",
+      "title": "Asia (UN)",
+      "value": "2443330300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "80",
+      "year": "1977",
+      "title": "Asia (UN)",
+      "value": "2490528500",
+      "color": "#32CD32"
+  },
+  {
+      "id": "81",
+      "year": "1978",
+      "title": "Asia (UN)",
+      "value": "2537447400",
+      "color": "#32CD32"
+  },
+  {
+      "id": "82",
+      "year": "1979",
+      "title": "Asia (UN)",
+      "value": "2585588200",
+      "color": "#32CD32"
+  },
+  {
+      "id": "83",
+      "year": "1980",
+      "title": "Asia (UN)",
+      "value": "2636013600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "84",
+      "year": "1981",
+      "title": "Asia (UN)",
+      "value": "2688480000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "85",
+      "year": "1982",
+      "title": "Asia (UN)",
+      "value": "2743289600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "86",
+      "year": "1983",
+      "title": "Asia (UN)",
+      "value": "2798588700",
+      "color": "#32CD32"
+  },
+  {
+      "id": "87",
+      "year": "1984",
+      "title": "Asia (UN)",
+      "value": "2853889500",
+      "color": "#32CD32"
+  },
+  {
+      "id": "88",
+      "year": "1985",
+      "title": "Asia (UN)",
+      "value": "2910588000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "89",
+      "year": "1986",
+      "title": "Asia (UN)",
+      "value": "2969038000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "90",
+      "year": "1987",
+      "title": "Asia (UN)",
+      "value": "3029379300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "91",
+      "year": "1988",
+      "title": "Asia (UN)",
+      "value": "3089991000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "92",
+      "year": "1989",
+      "title": "Asia (UN)",
+      "value": "3150480100",
+      "color": "#32CD32"
+  },
+  {
+      "id": "93",
+      "year": "1990",
+      "title": "Asia (UN)",
+      "value": "3211352000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "94",
+      "year": "1991",
+      "title": "Asia (UN)",
+      "value": "3269853000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "95",
+      "year": "1992",
+      "title": "Asia (UN)",
+      "value": "3325187800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "96",
+      "year": "1993",
+      "title": "Asia (UN)",
+      "value": "3379061200",
+      "color": "#32CD32"
+  },
+  {
+      "id": "97",
+      "year": "1994",
+      "title": "Asia (UN)",
+      "value": "3432015400",
+      "color": "#32CD32"
+  },
+  {
+      "id": "98",
+      "year": "1995",
+      "title": "Asia (UN)",
+      "value": "3484179000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "99",
+      "year": "1996",
+      "title": "Asia (UN)",
+      "value": "3535424000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "100",
+      "year": "1997",
+      "title": "Asia (UN)",
+      "value": "3586095600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "101",
+      "year": "1998",
+      "title": "Asia (UN)",
+      "value": "3636357400",
+      "color": "#32CD32"
+  },
+  {
+      "id": "102",
+      "year": "1999",
+      "title": "Asia (UN)",
+      "value": "3686164200",
+      "color": "#32CD32"
+  },
+  {
+      "id": "103",
+      "year": "2000",
+      "title": "Asia (UN)",
+      "value": "3736038000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "104",
+      "year": "2001",
+      "title": "Asia (UN)",
+      "value": "3786179800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "105",
+      "year": "2002",
+      "title": "Asia (UN)",
+      "value": "3835669500",
+      "color": "#32CD32"
+  },
+  {
+      "id": "106",
+      "year": "2003",
+      "title": "Asia (UN)",
+      "value": "3884310800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "107",
+      "year": "2004",
+      "title": "Asia (UN)",
+      "value": "3932421000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "108",
+      "year": "2005",
+      "title": "Asia (UN)",
+      "value": "3980365800",
+      "color": "#32CD32"
+  },
+  {
+      "id": "109",
+      "year": "2006",
+      "title": "Asia (UN)",
+      "value": "4028347100",
+      "color": "#32CD32"
+  },
+  {
+      "id": "110",
+      "year": "2007",
+      "title": "Asia (UN)",
+      "value": "4076071700",
+      "color": "#32CD32"
+  },
+  {
+      "id": "111",
+      "year": "2008",
+      "title": "Asia (UN)",
+      "value": "4123883000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "112",
+      "year": "2009",
+      "title": "Asia (UN)",
+      "value": "4172450300",
+      "color": "#32CD32"
+  },
+  {
+      "id": "113",
+      "year": "2010",
+      "title": "Asia (UN)",
+      "value": "4221171000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "114",
+      "year": "2011",
+      "title": "Asia (UN)",
+      "value": "4269624000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "115",
+      "year": "2012",
+      "title": "Asia (UN)",
+      "value": "4318321700",
+      "color": "#32CD32"
+  },
+  {
+      "id": "116",
+      "year": "2013",
+      "title": "Asia (UN)",
+      "value": "4366454000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "117",
+      "year": "2014",
+      "title": "Asia (UN)",
+      "value": "4413673500",
+      "color": "#32CD32"
+  },
+  {
+      "id": "118",
+      "year": "2015",
+      "title": "Asia (UN)",
+      "value": "4459437600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "119",
+      "year": "2016",
+      "title": "Asia (UN)",
+      "value": "4504153600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "120",
+      "year": "2017",
+      "title": "Asia (UN)",
+      "value": "4548303400",
+      "color": "#32CD32"
+  },
+  {
+      "id": "121",
+      "year": "2018",
+      "title": "Asia (UN)",
+      "value": "4590021600",
+      "color": "#32CD32"
+  },
+  {
+      "id": "122",
+      "year": "2019",
+      "title": "Asia (UN)",
+      "value": "4628967400",
+      "color": "#32CD32"
+  },
+  {
+      "id": "123",
+      "year": "2020",
+      "title": "Asia (UN)",
+      "value": "4664324000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "124",
+      "year": "2021",
+      "title": "Asia (UN)",
+      "value": "4694576000",
+      "color": "#32CD32"
+  },
+  {
+      "id": "125",
+      "year": "1950",
+      "title": "China",
+      "value": "543979200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "126",
+      "year": "1951",
+      "title": "China",
+      "value": "553614000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "127",
+      "year": "1952",
+      "title": "China",
+      "value": "564954500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "128",
+      "year": "1953",
+      "title": "China",
+      "value": "577378700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "129",
+      "year": "1954",
+      "title": "China",
+      "value": "589936000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "130",
+      "year": "1955",
+      "title": "China",
+      "value": "603320100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "131",
+      "year": "1956",
+      "title": "China",
+      "value": "616283000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "132",
+      "year": "1957",
+      "title": "China",
+      "value": "630003000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "133",
+      "year": "1958",
+      "title": "China",
+      "value": "643791550",
+      "color": "#8543E0"
+  },
+  {
+      "id": "134",
+      "year": "1959",
+      "title": "China",
+      "value": "652179200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "135",
+      "year": "1960",
+      "title": "China",
+      "value": "654170700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "136",
+      "year": "1961",
+      "title": "China",
+      "value": "655260350",
+      "color": "#8543E0"
+  },
+  {
+      "id": "137",
+      "year": "1962",
+      "title": "China",
+      "value": "664614660",
+      "color": "#8543E0"
+  },
+  {
+      "id": "138",
+      "year": "1963",
+      "title": "China",
+      "value": "683903550",
+      "color": "#8543E0"
+  },
+  {
+      "id": "139",
+      "year": "1964",
+      "title": "China",
+      "value": "704593800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "140",
+      "year": "1965",
+      "title": "China",
+      "value": "723846340",
+      "color": "#8543E0"
+  },
+  {
+      "id": "141",
+      "year": "1966",
+      "title": "China",
+      "value": "742948540",
+      "color": "#8543E0"
+  },
+  {
+      "id": "142",
+      "year": "1967",
+      "title": "China",
+      "value": "761006300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "143",
+      "year": "1968",
+      "title": "China",
+      "value": "780372000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "144",
+      "year": "1969",
+      "title": "China",
+      "value": "801431000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "145",
+      "year": "1970",
+      "title": "China",
+      "value": "822534460",
+      "color": "#8543E0"
+  },
+  {
+      "id": "146",
+      "year": "1971",
+      "title": "China",
+      "value": "843285440",
+      "color": "#8543E0"
+  },
+  {
+      "id": "147",
+      "year": "1972",
+      "title": "China",
+      "value": "862840400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "148",
+      "year": "1973",
+      "title": "China",
+      "value": "881652100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "149",
+      "year": "1974",
+      "title": "China",
+      "value": "899367700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "150",
+      "year": "1975",
+      "title": "China",
+      "value": "915124700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "151",
+      "year": "1976",
+      "title": "China",
+      "value": "929375940",
+      "color": "#8543E0"
+  },
+  {
+      "id": "152",
+      "year": "1977",
+      "title": "China",
+      "value": "942581300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "153",
+      "year": "1978",
+      "title": "China",
+      "value": "955138940",
+      "color": "#8543E0"
+  },
+  {
+      "id": "154",
+      "year": "1979",
+      "title": "China",
+      "value": "968298940",
+      "color": "#8543E0"
+  },
+  {
+      "id": "155",
+      "year": "1980",
+      "title": "China",
+      "value": "982372500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "156",
+      "year": "1981",
+      "title": "China",
+      "value": "997259500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "157",
+      "year": "1982",
+      "title": "China",
+      "value": "1013483200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "158",
+      "year": "1983",
+      "title": "China",
+      "value": "1029226900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "159",
+      "year": "1984",
+      "title": "China",
+      "value": "1044172200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "160",
+      "year": "1985",
+      "title": "China",
+      "value": "1060240000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "161",
+      "year": "1986",
+      "title": "China",
+      "value": "1077770500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "162",
+      "year": "1987",
+      "title": "China",
+      "value": "1096851800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "163",
+      "year": "1988",
+      "title": "China",
+      "value": "1115889800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "164",
+      "year": "1989",
+      "title": "China",
+      "value": "1134414700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "165",
+      "year": "1990",
+      "title": "China",
+      "value": "1153704200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "166",
+      "year": "1991",
+      "title": "China",
+      "value": "1170626200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "167",
+      "year": "1992",
+      "title": "China",
+      "value": "1183813400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "168",
+      "year": "1993",
+      "title": "China",
+      "value": "1195855600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "169",
+      "year": "1994",
+      "title": "China",
+      "value": "1207286700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "170",
+      "year": "1995",
+      "title": "China",
+      "value": "1218144400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "171",
+      "year": "1996",
+      "title": "China",
+      "value": "1228298900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "172",
+      "year": "1997",
+      "title": "China",
+      "value": "1237801500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "173",
+      "year": "1998",
+      "title": "China",
+      "value": "1246836100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "174",
+      "year": "1999",
+      "title": "China",
+      "value": "1255433200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "175",
+      "year": "2000",
+      "title": "China",
+      "value": "1264099100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "176",
+      "year": "2001",
+      "title": "China",
+      "value": "1272739600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "177",
+      "year": "2002",
+      "title": "China",
+      "value": "1280926100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "178",
+      "year": "2003",
+      "title": "China",
+      "value": "1288873300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "179",
+      "year": "2004",
+      "title": "China",
+      "value": "1296816800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "180",
+      "year": "2005",
+      "title": "China",
+      "value": "1304887600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "181",
+      "year": "2006",
+      "title": "China",
+      "value": "1313086600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "182",
+      "year": "2007",
+      "title": "China",
+      "value": "1321513200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "183",
+      "year": "2008",
+      "title": "China",
+      "value": "1330167200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "184",
+      "year": "2009",
+      "title": "China",
+      "value": "1339125600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "185",
+      "year": "2010",
+      "title": "China",
+      "value": "1348191400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "186",
+      "year": "2011",
+      "title": "China",
+      "value": "1357095400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "187",
+      "year": "2012",
+      "title": "China",
+      "value": "1366560800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "188",
+      "year": "2013",
+      "title": "China",
+      "value": "1376100400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "189",
+      "year": "2014",
+      "title": "China",
+      "value": "1385189600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "190",
+      "year": "2015",
+      "title": "China",
+      "value": "1393715500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "191",
+      "year": "2016",
+      "title": "China",
+      "value": "1401889700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "192",
+      "year": "2017",
+      "title": "China",
+      "value": "1410276000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "193",
+      "year": "2018",
+      "title": "China",
+      "value": "1417069400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "194",
+      "year": "2019",
+      "title": "China",
+      "value": "1421864100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "195",
+      "year": "2020",
+      "title": "China",
+      "value": "1424929800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "196",
+      "year": "2021",
+      "title": "China",
+      "value": "1425893500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "197",
+      "year": "1950",
+      "title": "Europe (UN)",
+      "value": "549721700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "198",
+      "year": "1951",
+      "title": "Europe (UN)",
+      "value": "554559500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "199",
+      "year": "1952",
+      "title": "Europe (UN)",
+      "value": "559609900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "200",
+      "year": "1953",
+      "title": "Europe (UN)",
+      "value": "565058600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "201",
+      "year": "1954",
+      "title": "Europe (UN)",
+      "value": "570671000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "202",
+      "year": "1955",
+      "title": "Europe (UN)",
+      "value": "576304960",
+      "color": "#8543E0"
+  },
+  {
+      "id": "203",
+      "year": "1956",
+      "title": "Europe (UN)",
+      "value": "581975500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "204",
+      "year": "1957",
+      "title": "Europe (UN)",
+      "value": "587711600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "205",
+      "year": "1958",
+      "title": "Europe (UN)",
+      "value": "593669300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "206",
+      "year": "1959",
+      "title": "Europe (UN)",
+      "value": "599684860",
+      "color": "#8543E0"
+  },
+  {
+      "id": "207",
+      "year": "1960",
+      "title": "Europe (UN)",
+      "value": "605629900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "208",
+      "year": "1961",
+      "title": "Europe (UN)",
+      "value": "611711040",
+      "color": "#8543E0"
+  },
+  {
+      "id": "209",
+      "year": "1962",
+      "title": "Europe (UN)",
+      "value": "617672200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "210",
+      "year": "1963",
+      "title": "Europe (UN)",
+      "value": "623336000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "211",
+      "year": "1964",
+      "title": "Europe (UN)",
+      "value": "628944900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "212",
+      "year": "1965",
+      "title": "Europe (UN)",
+      "value": "634267600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "213",
+      "year": "1966",
+      "title": "Europe (UN)",
+      "value": "639264450",
+      "color": "#8543E0"
+  },
+  {
+      "id": "214",
+      "year": "1967",
+      "title": "Europe (UN)",
+      "value": "644114400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "215",
+      "year": "1968",
+      "title": "Europe (UN)",
+      "value": "648610200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "216",
+      "year": "1969",
+      "title": "Europe (UN)",
+      "value": "652740600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "217",
+      "year": "1970",
+      "title": "Europe (UN)",
+      "value": "656521400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "218",
+      "year": "1971",
+      "title": "Europe (UN)",
+      "value": "660476000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "219",
+      "year": "1972",
+      "title": "Europe (UN)",
+      "value": "664799700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "220",
+      "year": "1973",
+      "title": "Europe (UN)",
+      "value": "668909000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "221",
+      "year": "1974",
+      "title": "Europe (UN)",
+      "value": "672912960",
+      "color": "#8543E0"
+  },
+  {
+      "id": "222",
+      "year": "1975",
+      "title": "Europe (UN)",
+      "value": "676770900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "223",
+      "year": "1976",
+      "title": "Europe (UN)",
+      "value": "680361150",
+      "color": "#8543E0"
+  },
+  {
+      "id": "224",
+      "year": "1977",
+      "title": "Europe (UN)",
+      "value": "683848700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "225",
+      "year": "1978",
+      "title": "Europe (UN)",
+      "value": "687149600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "226",
+      "year": "1979",
+      "title": "Europe (UN)",
+      "value": "690287700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "227",
+      "year": "1980",
+      "title": "Europe (UN)",
+      "value": "693437250",
+      "color": "#8543E0"
+  },
+  {
+      "id": "228",
+      "year": "1981",
+      "title": "Europe (UN)",
+      "value": "696429200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "229",
+      "year": "1982",
+      "title": "Europe (UN)",
+      "value": "699220350",
+      "color": "#8543E0"
+  },
+  {
+      "id": "230",
+      "year": "1983",
+      "title": "Europe (UN)",
+      "value": "702014800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "231",
+      "year": "1984",
+      "title": "Europe (UN)",
+      "value": "704798600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "232",
+      "year": "1985",
+      "title": "Europe (UN)",
+      "value": "707516300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "233",
+      "year": "1986",
+      "title": "Europe (UN)",
+      "value": "710385100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "234",
+      "year": "1987",
+      "title": "Europe (UN)",
+      "value": "713465340",
+      "color": "#8543E0"
+  },
+  {
+      "id": "235",
+      "year": "1988",
+      "title": "Europe (UN)",
+      "value": "716444400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "236",
+      "year": "1989",
+      "title": "Europe (UN)",
+      "value": "719107900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "237",
+      "year": "1990",
+      "title": "Europe (UN)",
+      "value": "721497300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "238",
+      "year": "1991",
+      "title": "Europe (UN)",
+      "value": "723602900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "239",
+      "year": "1992",
+      "title": "Europe (UN)",
+      "value": "725259500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "240",
+      "year": "1993",
+      "title": "Europe (UN)",
+      "value": "726441900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "241",
+      "year": "2001",
+      "title": "Europe (UN)",
+      "value": "726878340",
+      "color": "#8543E0"
+  },
+  {
+      "id": "242",
+      "year": "2002",
+      "title": "Europe (UN)",
+      "value": "726939300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "243",
+      "year": "2000",
+      "title": "Europe (UN)",
+      "value": "726968450",
+      "color": "#8543E0"
+  },
+  {
+      "id": "244",
+      "year": "1994",
+      "title": "Europe (UN)",
+      "value": "727063200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "245",
+      "year": "1999",
+      "title": "Europe (UN)",
+      "value": "727100000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "246",
+      "year": "1995",
+      "title": "Europe (UN)",
+      "value": "727300400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "247",
+      "year": "2003",
+      "title": "Europe (UN)",
+      "value": "727425000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "248",
+      "year": "1998",
+      "title": "Europe (UN)",
+      "value": "727445600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "249",
+      "year": "1996",
+      "title": "Europe (UN)",
+      "value": "727453600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "250",
+      "year": "1997",
+      "title": "Europe (UN)",
+      "value": "727566460",
+      "color": "#8543E0"
+  },
+  {
+      "id": "251",
+      "year": "2004",
+      "title": "Europe (UN)",
+      "value": "728163260",
+      "color": "#8543E0"
+  },
+  {
+      "id": "252",
+      "year": "2005",
+      "title": "Europe (UN)",
+      "value": "728950460",
+      "color": "#8543E0"
+  },
+  {
+      "id": "253",
+      "year": "2006",
+      "title": "Europe (UN)",
+      "value": "729857700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "254",
+      "year": "2007",
+      "title": "Europe (UN)",
+      "value": "731393150",
+      "color": "#8543E0"
+  },
+  {
+      "id": "255",
+      "year": "2008",
+      "title": "Europe (UN)",
+      "value": "733256200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "256",
+      "year": "2009",
+      "title": "Europe (UN)",
+      "value": "734902800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "257",
+      "year": "2010",
+      "title": "Europe (UN)",
+      "value": "736276800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "258",
+      "year": "2011",
+      "title": "Europe (UN)",
+      "value": "737589600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "259",
+      "year": "2012",
+      "title": "Europe (UN)",
+      "value": "738907600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "260",
+      "year": "2013",
+      "title": "Europe (UN)",
+      "value": "740013800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "261",
+      "year": "2014",
+      "title": "Europe (UN)",
+      "value": "741014140",
+      "color": "#8543E0"
+  },
+  {
+      "id": "262",
+      "year": "2015",
+      "title": "Europe (UN)",
+      "value": "742107460",
+      "color": "#8543E0"
+  },
+  {
+      "id": "263",
+      "year": "2016",
+      "title": "Europe (UN)",
+      "value": "743318600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "264",
+      "year": "2017",
+      "title": "Europe (UN)",
+      "value": "744449340",
+      "color": "#8543E0"
+  },
+  {
+      "id": "265",
+      "year": "2021",
+      "title": "Europe (UN)",
+      "value": "745173760",
+      "color": "#8543E0"
+  },
+  {
+      "id": "266",
+      "year": "2018",
+      "title": "Europe (UN)",
+      "value": "745359100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "267",
+      "year": "2019",
+      "title": "Europe (UN)",
+      "value": "746189630",
+      "color": "#8543E0"
+  },
+  {
+      "id": "268",
+      "year": "2020",
+      "title": "Europe (UN)",
+      "value": "746225340",
+      "color": "#8543E0"
+  },
+  {
+      "id": "269",
+      "year": "1950",
+      "title": "High-income countries",
+      "value": "687356540",
+      "color": "#223273"
+  },
+  {
+      "id": "270",
+      "year": "1951",
+      "title": "High-income countries",
+      "value": "694993200",
+      "color": "#223273"
+  },
+  {
+      "id": "271",
+      "year": "1952",
+      "title": "High-income countries",
+      "value": "702997900",
+      "color": "#223273"
+  },
+  {
+      "id": "272",
+      "year": "1953",
+      "title": "High-income countries",
+      "value": "711557000",
+      "color": "#223273"
+  },
+  {
+      "id": "273",
+      "year": "1954",
+      "title": "High-income countries",
+      "value": "720488450",
+      "color": "#223273"
+  },
+  {
+      "id": "274",
+      "year": "1955",
+      "title": "High-income countries",
+      "value": "729633200",
+      "color": "#223273"
+  },
+  {
+      "id": "275",
+      "year": "1956",
+      "title": "High-income countries",
+      "value": "738781100",
+      "color": "#223273"
+  },
+  {
+      "id": "276",
+      "year": "1957",
+      "title": "High-income countries",
+      "value": "747935700",
+      "color": "#223273"
+  },
+  {
+      "id": "277",
+      "year": "1958",
+      "title": "High-income countries",
+      "value": "757684400",
+      "color": "#223273"
+  },
+  {
+      "id": "278",
+      "year": "1959",
+      "title": "High-income countries",
+      "value": "767597250",
+      "color": "#223273"
+  },
+  {
+      "id": "279",
+      "year": "1960",
+      "title": "High-income countries",
+      "value": "777151550",
+      "color": "#223273"
+  },
+  {
+      "id": "280",
+      "year": "1961",
+      "title": "High-income countries",
+      "value": "786827000",
+      "color": "#223273"
+  },
+  {
+      "id": "281",
+      "year": "1962",
+      "title": "High-income countries",
+      "value": "796503000",
+      "color": "#223273"
+  },
+  {
+      "id": "282",
+      "year": "1963",
+      "title": "High-income countries",
+      "value": "806115000",
+      "color": "#223273"
+  },
+  {
+      "id": "283",
+      "year": "1964",
+      "title": "High-income countries",
+      "value": "815862500",
+      "color": "#223273"
+  },
+  {
+      "id": "284",
+      "year": "1965",
+      "title": "High-income countries",
+      "value": "825442300",
+      "color": "#223273"
+  },
+  {
+      "id": "285",
+      "year": "1966",
+      "title": "High-income countries",
+      "value": "834453100",
+      "color": "#223273"
+  },
+  {
+      "id": "286",
+      "year": "1967",
+      "title": "High-income countries",
+      "value": "843258700",
+      "color": "#223273"
+  },
+  {
+      "id": "287",
+      "year": "1968",
+      "title": "High-income countries",
+      "value": "852006400",
+      "color": "#223273"
+  },
+  {
+      "id": "288",
+      "year": "1969",
+      "title": "High-income countries",
+      "value": "860627500",
+      "color": "#223273"
+  },
+  {
+      "id": "289",
+      "year": "1970",
+      "title": "High-income countries",
+      "value": "869634940",
+      "color": "#223273"
+  },
+  {
+      "id": "290",
+      "year": "1971",
+      "title": "High-income countries",
+      "value": "879115650",
+      "color": "#223273"
+  },
+  {
+      "id": "291",
+      "year": "1972",
+      "title": "High-income countries",
+      "value": "888453800",
+      "color": "#223273"
+  },
+  {
+      "id": "292",
+      "year": "1973",
+      "title": "High-income countries",
+      "value": "897284740",
+      "color": "#223273"
+  },
+  {
+      "id": "293",
+      "year": "1974",
+      "title": "High-income countries",
+      "value": "905859460",
+      "color": "#223273"
+  },
+  {
+      "id": "294",
+      "year": "1975",
+      "title": "High-income countries",
+      "value": "914092100",
+      "color": "#223273"
+  },
+  {
+      "id": "295",
+      "year": "1976",
+      "title": "High-income countries",
+      "value": "921850500",
+      "color": "#223273"
+  },
+  {
+      "id": "296",
+      "year": "1977",
+      "title": "High-income countries",
+      "value": "929552000",
+      "color": "#223273"
+  },
+  {
+      "id": "297",
+      "year": "1978",
+      "title": "High-income countries",
+      "value": "937269600",
+      "color": "#223273"
+  },
+  {
+      "id": "298",
+      "year": "1979",
+      "title": "High-income countries",
+      "value": "944985400",
+      "color": "#223273"
+  },
+  {
+      "id": "299",
+      "year": "1980",
+      "title": "High-income countries",
+      "value": "952917800",
+      "color": "#223273"
+  },
+  {
+      "id": "300",
+      "year": "1981",
+      "title": "High-income countries",
+      "value": "960665540",
+      "color": "#223273"
+  },
+  {
+      "id": "301",
+      "year": "1982",
+      "title": "High-income countries",
+      "value": "968069700",
+      "color": "#223273"
+  },
+  {
+      "id": "302",
+      "year": "1983",
+      "title": "High-income countries",
+      "value": "975322700",
+      "color": "#223273"
+  },
+  {
+      "id": "303",
+      "year": "1984",
+      "title": "High-income countries",
+      "value": "982449600",
+      "color": "#223273"
+  },
+  {
+      "id": "304",
+      "year": "1985",
+      "title": "High-income countries",
+      "value": "989559040",
+      "color": "#223273"
+  },
+  {
+      "id": "305",
+      "year": "1986",
+      "title": "High-income countries",
+      "value": "996720450",
+      "color": "#223273"
+  },
+  {
+      "id": "306",
+      "year": "1987",
+      "title": "High-income countries",
+      "value": "1004059800",
+      "color": "#223273"
+  },
+  {
+      "id": "307",
+      "year": "1988",
+      "title": "High-income countries",
+      "value": "1011608640",
+      "color": "#223273"
+  },
+  {
+      "id": "308",
+      "year": "1989",
+      "title": "High-income countries",
+      "value": "1019401100",
+      "color": "#223273"
+  },
+  {
+      "id": "309",
+      "year": "1990",
+      "title": "High-income countries",
+      "value": "1027000500",
+      "color": "#223273"
+  },
+  {
+      "id": "310",
+      "year": "1991",
+      "title": "High-income countries",
+      "value": "1034931700",
+      "color": "#223273"
+  },
+  {
+      "id": "311",
+      "year": "1992",
+      "title": "High-income countries",
+      "value": "1043314700",
+      "color": "#223273"
+  },
+  {
+      "id": "312",
+      "year": "1993",
+      "title": "High-income countries",
+      "value": "1051133760",
+      "color": "#223273"
+  },
+  {
+      "id": "313",
+      "year": "1994",
+      "title": "High-income countries",
+      "value": "1058559040",
+      "color": "#223273"
+  },
+  {
+      "id": "314",
+      "year": "1995",
+      "title": "High-income countries",
+      "value": "1065658430",
+      "color": "#223273"
+  },
+  {
+      "id": "315",
+      "year": "1996",
+      "title": "High-income countries",
+      "value": "1072635700",
+      "color": "#223273"
+  },
+  {
+      "id": "316",
+      "year": "1997",
+      "title": "High-income countries",
+      "value": "1079759900",
+      "color": "#223273"
+  },
+  {
+      "id": "317",
+      "year": "1998",
+      "title": "High-income countries",
+      "value": "1086790400",
+      "color": "#223273"
+  },
+  {
+      "id": "318",
+      "year": "1999",
+      "title": "High-income countries",
+      "value": "1093614600",
+      "color": "#223273"
+  },
+  {
+      "id": "319",
+      "year": "2000",
+      "title": "High-income countries",
+      "value": "1100556400",
+      "color": "#223273"
+  },
+  {
+      "id": "320",
+      "year": "2001",
+      "title": "High-income countries",
+      "value": "1107477500",
+      "color": "#223273"
+  },
+  {
+      "id": "321",
+      "year": "2002",
+      "title": "High-income countries",
+      "value": "1114326700",
+      "color": "#223273"
+  },
+  {
+      "id": "322",
+      "year": "2003",
+      "title": "High-income countries",
+      "value": "1121330700",
+      "color": "#223273"
+  },
+  {
+      "id": "323",
+      "year": "2004",
+      "title": "High-income countries",
+      "value": "1128500600",
+      "color": "#223273"
+  },
+  {
+      "id": "324",
+      "year": "2005",
+      "title": "High-income countries",
+      "value": "1136133500",
+      "color": "#223273"
+  },
+  {
+      "id": "325",
+      "year": "2006",
+      "title": "High-income countries",
+      "value": "1144598300",
+      "color": "#223273"
+  },
+  {
+      "id": "326",
+      "year": "2007",
+      "title": "High-income countries",
+      "value": "1154095000",
+      "color": "#223273"
+  },
+  {
+      "id": "327",
+      "year": "2008",
+      "title": "High-income countries",
+      "value": "1163865100",
+      "color": "#223273"
+  },
+  {
+      "id": "328",
+      "year": "2009",
+      "title": "High-income countries",
+      "value": "1172942600",
+      "color": "#223273"
+  },
+  {
+      "id": "329",
+      "year": "2010",
+      "title": "High-income countries",
+      "value": "1180883700",
+      "color": "#223273"
+  },
+  {
+      "id": "330",
+      "year": "2011",
+      "title": "High-income countries",
+      "value": "1188280800",
+      "color": "#223273"
+  },
+  {
+      "id": "331",
+      "year": "2012",
+      "title": "High-income countries",
+      "value": "1195667000",
+      "color": "#223273"
+  },
+  {
+      "id": "332",
+      "year": "2013",
+      "title": "High-income countries",
+      "value": "1202704800",
+      "color": "#223273"
+  },
+  {
+      "id": "333",
+      "year": "2014",
+      "title": "High-income countries",
+      "value": "1209361300",
+      "color": "#223273"
+  },
+  {
+      "id": "334",
+      "year": "2015",
+      "title": "High-income countries",
+      "value": "1215900900",
+      "color": "#223273"
+  },
+  {
+      "id": "335",
+      "year": "2016",
+      "title": "High-income countries",
+      "value": "1222446100",
+      "color": "#223273"
+  },
+  {
+      "id": "336",
+      "year": "2017",
+      "title": "High-income countries",
+      "value": "1228872200",
+      "color": "#223273"
+  },
+  {
+      "id": "337",
+      "year": "2018",
+      "title": "High-income countries",
+      "value": "1235045600",
+      "color": "#223273"
+  },
+  {
+      "id": "338",
+      "year": "2019",
+      "title": "High-income countries",
+      "value": "1240855700",
+      "color": "#223273"
+  },
+  {
+      "id": "339",
+      "year": "2020",
+      "title": "High-income countries",
+      "value": "1244106800",
+      "color": "#223273"
+  },
+  {
+      "id": "340",
+      "year": "2021",
+      "title": "High-income countries",
+      "value": "1245565600",
+      "color": "#223273"
+  },
+  {
+      "id": "341",
+      "year": "1950",
+      "title": "India",
+      "value": "357021120",
+      "color": "#FF6600"
+  },
+  {
+      "id": "342",
+      "year": "1951",
+      "title": "India",
+      "value": "364922370",
+      "color": "#FF6600"
+  },
+  {
+      "id": "343",
+      "year": "1952",
+      "title": "India",
+      "value": "372997200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "344",
+      "year": "1953",
+      "title": "India",
+      "value": "381227700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "345",
+      "year": "1954",
+      "title": "India",
+      "value": "389731400",
+      "color": "#FF6600"
+  },
+  {
+      "id": "346",
+      "year": "1955",
+      "title": "India",
+      "value": "398578000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "347",
+      "year": "1956",
+      "title": "India",
+      "value": "407656600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "348",
+      "year": "1957",
+      "title": "India",
+      "value": "416935400",
+      "color": "#FF6600"
+  },
+  {
+      "id": "349",
+      "year": "1958",
+      "title": "India",
+      "value": "426295780",
+      "color": "#FF6600"
+  },
+  {
+      "id": "350",
+      "year": "1959",
+      "title": "India",
+      "value": "435900350",
+      "color": "#FF6600"
+  },
+  {
+      "id": "351",
+      "year": "1960",
+      "title": "India",
+      "value": "445954560",
+      "color": "#FF6600"
+  },
+  {
+      "id": "352",
+      "year": "1961",
+      "title": "India",
+      "value": "456351870",
+      "color": "#FF6600"
+  },
+  {
+      "id": "353",
+      "year": "1962",
+      "title": "India",
+      "value": "467024200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "354",
+      "year": "1963",
+      "title": "India",
+      "value": "477933630",
+      "color": "#FF6600"
+  },
+  {
+      "id": "355",
+      "year": "1964",
+      "title": "India",
+      "value": "489059300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "356",
+      "year": "1965",
+      "title": "India",
+      "value": "500114340",
+      "color": "#FF6600"
+  },
+  {
+      "id": "357",
+      "year": "1966",
+      "title": "India",
+      "value": "510992600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "358",
+      "year": "1967",
+      "title": "India",
+      "value": "521987070",
+      "color": "#FF6600"
+  },
+  {
+      "id": "359",
+      "year": "1968",
+      "title": "India",
+      "value": "533431900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "360",
+      "year": "1969",
+      "title": "India",
+      "value": "545314700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "361",
+      "year": "1970",
+      "title": "India",
+      "value": "557501300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "362",
+      "year": "1971",
+      "title": "India",
+      "value": "569999170",
+      "color": "#FF6600"
+  },
+  {
+      "id": "363",
+      "year": "1972",
+      "title": "India",
+      "value": "582837950",
+      "color": "#FF6600"
+  },
+  {
+      "id": "364",
+      "year": "1973",
+      "title": "India",
+      "value": "596107460",
+      "color": "#FF6600"
+  },
+  {
+      "id": "365",
+      "year": "1974",
+      "title": "India",
+      "value": "609721900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "366",
+      "year": "1975",
+      "title": "India",
+      "value": "623524200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "367",
+      "year": "1976",
+      "title": "India",
+      "value": "637451460",
+      "color": "#FF6600"
+  },
+  {
+      "id": "368",
+      "year": "1977",
+      "title": "India",
+      "value": "651685600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "369",
+      "year": "1978",
+      "title": "India",
+      "value": "666267800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "370",
+      "year": "1979",
+      "title": "India",
+      "value": "681248400",
+      "color": "#FF6600"
+  },
+  {
+      "id": "371",
+      "year": "1980",
+      "title": "India",
+      "value": "696828350",
+      "color": "#FF6600"
+  },
+  {
+      "id": "372",
+      "year": "1981",
+      "title": "India",
+      "value": "712869300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "373",
+      "year": "1982",
+      "title": "India",
+      "value": "729169500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "374",
+      "year": "1983",
+      "title": "India",
+      "value": "745826560",
+      "color": "#FF6600"
+  },
+  {
+      "id": "375",
+      "year": "1984",
+      "title": "India",
+      "value": "762895170",
+      "color": "#FF6600"
+  },
+  {
+      "id": "376",
+      "year": "1985",
+      "title": "India",
+      "value": "780242100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "377",
+      "year": "1986",
+      "title": "India",
+      "value": "797879000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "378",
+      "year": "1987",
+      "title": "India",
+      "value": "815716160",
+      "color": "#FF6600"
+  },
+  {
+      "id": "379",
+      "year": "1988",
+      "title": "India",
+      "value": "833729660",
+      "color": "#FF6600"
+  },
+  {
+      "id": "380",
+      "year": "1989",
+      "title": "India",
+      "value": "852012700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "381",
+      "year": "1990",
+      "title": "India",
+      "value": "870452160",
+      "color": "#FF6600"
+  },
+  {
+      "id": "382",
+      "year": "1991",
+      "title": "India",
+      "value": "888941760",
+      "color": "#FF6600"
+  },
+  {
+      "id": "383",
+      "year": "1992",
+      "title": "India",
+      "value": "907574100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "384",
+      "year": "1993",
+      "title": "India",
+      "value": "926351300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "385",
+      "year": "1994",
+      "title": "India",
+      "value": "945261950",
+      "color": "#FF6600"
+  },
+  {
+      "id": "386",
+      "year": "1995",
+      "title": "India",
+      "value": "964279100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "387",
+      "year": "1996",
+      "title": "India",
+      "value": "983281200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "388",
+      "year": "1997",
+      "title": "India",
+      "value": "1002335200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "389",
+      "year": "1998",
+      "title": "India",
+      "value": "1021434560",
+      "color": "#FF6600"
+  },
+  {
+      "id": "390",
+      "year": "1999",
+      "title": "India",
+      "value": "1040500030",
+      "color": "#FF6600"
+  },
+  {
+      "id": "391",
+      "year": "2000",
+      "title": "India",
+      "value": "1059633660",
+      "color": "#FF6600"
+  },
+  {
+      "id": "392",
+      "year": "2001",
+      "title": "India",
+      "value": "1078970900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "393",
+      "year": "2002",
+      "title": "India",
+      "value": "1098313100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "394",
+      "year": "2003",
+      "title": "India",
+      "value": "1117415200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "395",
+      "year": "2004",
+      "title": "India",
+      "value": "1136264600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "396",
+      "year": "2005",
+      "title": "India",
+      "value": "1154638700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "397",
+      "year": "2006",
+      "title": "India",
+      "value": "1172373800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "398",
+      "year": "2007",
+      "title": "India",
+      "value": "1189691800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "399",
+      "year": "2008",
+      "title": "India",
+      "value": "1206734800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "400",
+      "year": "2009",
+      "title": "India",
+      "value": "1223640200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "401",
+      "year": "2010",
+      "title": "India",
+      "value": "1240613600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "402",
+      "year": "2011",
+      "title": "India",
+      "value": "1257621200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "403",
+      "year": "2012",
+      "title": "India",
+      "value": "1274487200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "404",
+      "year": "2013",
+      "title": "India",
+      "value": "1291132000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "405",
+      "year": "2014",
+      "title": "India",
+      "value": "1307246500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "406",
+      "year": "2015",
+      "title": "India",
+      "value": "1322866600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "407",
+      "year": "2016",
+      "title": "India",
+      "value": "1338636300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "408",
+      "year": "2017",
+      "title": "India",
+      "value": "1354195700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "409",
+      "year": "2018",
+      "title": "India",
+      "value": "1369003300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "410",
+      "year": "2019",
+      "title": "India",
+      "value": "1383112100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "411",
+      "year": "2020",
+      "title": "India",
+      "value": "1396387100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "412",
+      "year": "2021",
+      "title": "India",
+      "value": "1407563900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "413",
+      "year": "2003",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "360444740",
+      "color": "#1890FF"
+  },
+  {
+      "id": "414",
+      "year": "2004",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "369046460",
+      "color": "#1890FF"
+  },
+  {
+      "id": "415",
+      "year": "2005",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "377754800",
+      "color": "#1890FF"
+  },
+  {
+      "id": "416",
+      "year": "2006",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "386852350",
+      "color": "#1890FF"
+  },
+  {
+      "id": "417",
+      "year": "2007",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "395642080",
+      "color": "#1890FF"
+  },
+  {
+      "id": "418",
+      "year": "2008",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "404775200",
+      "color": "#1890FF"
+  },
+  {
+      "id": "419",
+      "year": "2009",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "414699070",
+      "color": "#1890FF"
+  },
+  {
+      "id": "420",
+      "year": "2010",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "424788220",
+      "color": "#1890FF"
+  },
+  {
+      "id": "421",
+      "year": "2011",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "435309300",
+      "color": "#1890FF"
+  },
+  {
+      "id": "422",
+      "year": "2012",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "446077950",
+      "color": "#1890FF"
+  },
+  {
+      "id": "423",
+      "year": "2013",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "456858800",
+      "color": "#1890FF"
+  },
+  {
+      "id": "424",
+      "year": "2014",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "467737340",
+      "color": "#1890FF"
+  },
+  {
+      "id": "425",
+      "year": "2015",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "478577600",
+      "color": "#1890FF"
+  },
+  {
+      "id": "426",
+      "year": "2016",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "489620300",
+      "color": "#1890FF"
+  },
+  {
+      "id": "427",
+      "year": "2017",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "500950620",
+      "color": "#1890FF"
+  },
+  {
+      "id": "428",
+      "year": "2018",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "512657920",
+      "color": "#1890FF"
+  },
+  {
+      "id": "429",
+      "year": "2019",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "524971870",
+      "color": "#1890FF"
+  },
+  {
+      "id": "430",
+      "year": "2020",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "537864800",
+      "color": "#1890FF"
+  },
+  {
+      "id": "431",
+      "year": "2021",
+      "title": "Land-locked developing countries (LLDC)",
+      "value": "550846400",
+      "color": "#1890FF"
+  },
+  {
+      "id": "432",
+      "year": "1980",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "362332600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "433",
+      "year": "1981",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "370214140",
+      "color": "#4169E1"
+  },
+  {
+      "id": "434",
+      "year": "1982",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "378073950",
+      "color": "#4169E1"
+  },
+  {
+      "id": "435",
+      "year": "1983",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "386071040",
+      "color": "#4169E1"
+  },
+  {
+      "id": "436",
+      "year": "1984",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "394125300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "437",
+      "year": "1985",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "402164060",
+      "color": "#4169E1"
+  },
+  {
+      "id": "438",
+      "year": "1986",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "410179800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "439",
+      "year": "1987",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "418193800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "440",
+      "year": "1988",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "426258530",
+      "color": "#4169E1"
+  },
+  {
+      "id": "441",
+      "year": "1989",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "434345570",
+      "color": "#4169E1"
+  },
+  {
+      "id": "442",
+      "year": "1990",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "442565120",
+      "color": "#4169E1"
+  },
+  {
+      "id": "443",
+      "year": "1991",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "450839600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "444",
+      "year": "1992",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "459026880",
+      "color": "#4169E1"
+  },
+  {
+      "id": "445",
+      "year": "1993",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "467183200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "446",
+      "year": "1994",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "475330400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "447",
+      "year": "1995",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "483431600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "448",
+      "year": "1996",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "491423970",
+      "color": "#4169E1"
+  },
+  {
+      "id": "449",
+      "year": "1997",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "499347550",
+      "color": "#4169E1"
+  },
+  {
+      "id": "450",
+      "year": "1998",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "507199400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "451",
+      "year": "1999",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "514937060",
+      "color": "#4169E1"
+  },
+  {
+      "id": "452",
+      "year": "2000",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "522512130",
+      "color": "#4169E1"
+  },
+  {
+      "id": "453",
+      "year": "2001",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "529912670",
+      "color": "#4169E1"
+  },
+  {
+      "id": "454",
+      "year": "2002",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "537159500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "455",
+      "year": "2003",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "544202050",
+      "color": "#4169E1"
+  },
+  {
+      "id": "456",
+      "year": "2004",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "551122100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "457",
+      "year": "2005",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "557964000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "458",
+      "year": "2006",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "564664770",
+      "color": "#4169E1"
+  },
+  {
+      "id": "459",
+      "year": "2007",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "571246600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "460",
+      "year": "2008",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "577692600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "461",
+      "year": "2009",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "584072300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "462",
+      "year": "2010",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "590547000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "463",
+      "year": "2011",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "597179840",
+      "color": "#4169E1"
+  },
+  {
+      "id": "464",
+      "year": "2012",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "603818800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "465",
+      "year": "2013",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "610323400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "466",
+      "year": "2014",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "616734100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "467",
+      "year": "2015",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "623076500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "468",
+      "year": "2016",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "629341000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "469",
+      "year": "2017",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "635448200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "470",
+      "year": "2018",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "641303740",
+      "color": "#4169E1"
+  },
+  {
+      "id": "471",
+      "year": "2019",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "646846800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "472",
+      "year": "2020",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "651836100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "473",
+      "year": "2021",
+      "title": "Latin America and the Caribbean (UN)",
+      "value": "656098100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "474",
+      "year": "1976",
+      "title": "Least developed countries",
+      "value": "361742300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "475",
+      "year": "1977",
+      "title": "Least developed countries",
+      "value": "370439870",
+      "color": "#8543E0"
+  },
+  {
+      "id": "476",
+      "year": "1978",
+      "title": "Least developed countries",
+      "value": "379992000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "477",
+      "year": "1979",
+      "title": "Least developed countries",
+      "value": "390056930",
+      "color": "#8543E0"
+  },
+  {
+      "id": "478",
+      "year": "1980",
+      "title": "Least developed countries",
+      "value": "399246500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "479",
+      "year": "1981",
+      "title": "Least developed countries",
+      "value": "408153300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "480",
+      "year": "1982",
+      "title": "Least developed countries",
+      "value": "418471360",
+      "color": "#8543E0"
+  },
+  {
+      "id": "481",
+      "year": "1983",
+      "title": "Least developed countries",
+      "value": "429841100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "482",
+      "year": "1984",
+      "title": "Least developed countries",
+      "value": "441553630",
+      "color": "#8543E0"
+  },
+  {
+      "id": "483",
+      "year": "1985",
+      "title": "Least developed countries",
+      "value": "453409900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "484",
+      "year": "1986",
+      "title": "Least developed countries",
+      "value": "465218900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "485",
+      "year": "1987",
+      "title": "Least developed countries",
+      "value": "477192960",
+      "color": "#8543E0"
+  },
+  {
+      "id": "486",
+      "year": "1988",
+      "title": "Least developed countries",
+      "value": "489164000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "487",
+      "year": "1989",
+      "title": "Least developed countries",
+      "value": "501471580",
+      "color": "#8543E0"
+  },
+  {
+      "id": "488",
+      "year": "1990",
+      "title": "Least developed countries",
+      "value": "513968740",
+      "color": "#8543E0"
+  },
+  {
+      "id": "489",
+      "year": "1991",
+      "title": "Least developed countries",
+      "value": "526535580",
+      "color": "#8543E0"
+  },
+  {
+      "id": "490",
+      "year": "1992",
+      "title": "Least developed countries",
+      "value": "540619200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "491",
+      "year": "1993",
+      "title": "Least developed countries",
+      "value": "555923650",
+      "color": "#8543E0"
+  },
+  {
+      "id": "492",
+      "year": "1994",
+      "title": "Least developed countries",
+      "value": "570870460",
+      "color": "#8543E0"
+  },
+  {
+      "id": "493",
+      "year": "1995",
+      "title": "Least developed countries",
+      "value": "585613250",
+      "color": "#8543E0"
+  },
+  {
+      "id": "494",
+      "year": "1996",
+      "title": "Least developed countries",
+      "value": "600451260",
+      "color": "#8543E0"
+  },
+  {
+      "id": "495",
+      "year": "1997",
+      "title": "Least developed countries",
+      "value": "615302200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "496",
+      "year": "1998",
+      "title": "Least developed countries",
+      "value": "630487940",
+      "color": "#8543E0"
+  },
+  {
+      "id": "497",
+      "year": "1999",
+      "title": "Least developed countries",
+      "value": "646252000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "498",
+      "year": "2000",
+      "title": "Least developed countries",
+      "value": "662018200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "499",
+      "year": "2001",
+      "title": "Least developed countries",
+      "value": "678096200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "500",
+      "year": "2002",
+      "title": "Least developed countries",
+      "value": "695718340",
+      "color": "#8543E0"
+  },
+  {
+      "id": "501",
+      "year": "2003",
+      "title": "Least developed countries",
+      "value": "713914560",
+      "color": "#8543E0"
+  },
+  {
+      "id": "502",
+      "year": "2004",
+      "title": "Least developed countries",
+      "value": "731736900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "503",
+      "year": "2005",
+      "title": "Least developed countries",
+      "value": "749852860",
+      "color": "#8543E0"
+  },
+  {
+      "id": "504",
+      "year": "2006",
+      "title": "Least developed countries",
+      "value": "768211300",
+      "color": "#8543E0"
+  },
+  {
+      "id": "505",
+      "year": "2007",
+      "title": "Least developed countries",
+      "value": "786317100",
+      "color": "#8543E0"
+  },
+  {
+      "id": "506",
+      "year": "2008",
+      "title": "Least developed countries",
+      "value": "804637400",
+      "color": "#8543E0"
+  },
+  {
+      "id": "507",
+      "year": "2009",
+      "title": "Least developed countries",
+      "value": "823699840",
+      "color": "#8543E0"
+  },
+  {
+      "id": "508",
+      "year": "2010",
+      "title": "Least developed countries",
+      "value": "843512700",
+      "color": "#8543E0"
+  },
+  {
+      "id": "509",
+      "year": "2011",
+      "title": "Least developed countries",
+      "value": "864134660",
+      "color": "#8543E0"
+  },
+  {
+      "id": "510",
+      "year": "2012",
+      "title": "Least developed countries",
+      "value": "885375170",
+      "color": "#8543E0"
+  },
+  {
+      "id": "511",
+      "year": "2013",
+      "title": "Least developed countries",
+      "value": "907133950",
+      "color": "#8543E0"
+  },
+  {
+      "id": "512",
+      "year": "2014",
+      "title": "Least developed countries",
+      "value": "929398000",
+      "color": "#8543E0"
+  },
+  {
+      "id": "513",
+      "year": "2015",
+      "title": "Least developed countries",
+      "value": "951928200",
+      "color": "#8543E0"
+  },
+  {
+      "id": "514",
+      "year": "2016",
+      "title": "Least developed countries",
+      "value": "975265900",
+      "color": "#8543E0"
+  },
+  {
+      "id": "515",
+      "year": "2017",
+      "title": "Least developed countries",
+      "value": "999288800",
+      "color": "#8543E0"
+  },
+  {
+      "id": "516",
+      "year": "2018",
+      "title": "Least developed countries",
+      "value": "1023493760",
+      "color": "#8543E0"
+  },
+  {
+      "id": "517",
+      "year": "2019",
+      "title": "Least developed countries",
+      "value": "1048193540",
+      "color": "#8543E0"
+  },
+  {
+      "id": "518",
+      "year": "2020",
+      "title": "Least developed countries",
+      "value": "1073743500",
+      "color": "#8543E0"
+  },
+  {
+      "id": "519",
+      "year": "2021",
+      "title": "Least developed countries",
+      "value": "1099568600",
+      "color": "#8543E0"
+  },
+  {
+      "id": "520",
+      "year": "1950",
+      "title": "Less developed regions",
+      "value": "1693069300",
+      "color": "#F04864"
+  },
+  {
+      "id": "521",
+      "year": "1951",
+      "title": "Less developed regions",
+      "value": "1727765600",
+      "color": "#F04864"
+  },
+  {
+      "id": "522",
+      "year": "1952",
+      "title": "Less developed regions",
+      "value": "1765613300",
+      "color": "#F04864"
+  },
+  {
+      "id": "523",
+      "year": "1953",
+      "title": "Less developed regions",
+      "value": "1805874400",
+      "color": "#F04864"
+  },
+  {
+      "id": "524",
+      "year": "1954",
+      "title": "Less developed regions",
+      "value": "1847517600",
+      "color": "#F04864"
+  },
+  {
+      "id": "525",
+      "year": "1955",
+      "title": "Less developed regions",
+      "value": "1891385600",
+      "color": "#F04864"
+  },
+  {
+      "id": "526",
+      "year": "1956",
+      "title": "Less developed regions",
+      "value": "1936087400",
+      "color": "#F04864"
+  },
+  {
+      "id": "527",
+      "year": "1957",
+      "title": "Less developed regions",
+      "value": "1982765600",
+      "color": "#F04864"
+  },
+  {
+      "id": "528",
+      "year": "1958",
+      "title": "Less developed regions",
+      "value": "2030292200",
+      "color": "#F04864"
+  },
+  {
+      "id": "529",
+      "year": "1959",
+      "title": "Less developed regions",
+      "value": "2073704100",
+      "color": "#F04864"
+  },
+  {
+      "id": "530",
+      "year": "1960",
+      "title": "Less developed regions",
+      "value": "2112293900",
+      "color": "#F04864"
+  },
+  {
+      "id": "531",
+      "year": "1961",
+      "title": "Less developed regions",
+      "value": "2150924300",
+      "color": "#F04864"
+  },
+  {
+      "id": "532",
+      "year": "1962",
+      "title": "Less developed regions",
+      "value": "2198924800",
+      "color": "#F04864"
+  },
+  {
+      "id": "533",
+      "year": "1963",
+      "title": "Less developed regions",
+      "value": "2258032400",
+      "color": "#F04864"
+  },
+  {
+      "id": "534",
+      "year": "1964",
+      "title": "Less developed regions",
+      "value": "2319533800",
+      "color": "#F04864"
+  },
+  {
+      "id": "535",
+      "year": "1965",
+      "title": "Less developed regions",
+      "value": "2379895000",
+      "color": "#F04864"
+  },
+  {
+      "id": "536",
+      "year": "1966",
+      "title": "Less developed regions",
+      "value": "2440429000",
+      "color": "#F04864"
+  },
+  {
+      "id": "537",
+      "year": "1967",
+      "title": "Less developed regions",
+      "value": "2500985300",
+      "color": "#F04864"
+  },
+  {
+      "id": "538",
+      "year": "1968",
+      "title": "Less developed regions",
+      "value": "2564024000",
+      "color": "#F04864"
+  },
+  {
+      "id": "539",
+      "year": "1969",
+      "title": "Less developed regions",
+      "value": "2629763800",
+      "color": "#F04864"
+  },
+  {
+      "id": "540",
+      "year": "1970",
+      "title": "Less developed regions",
+      "value": "2696167200",
+      "color": "#F04864"
+  },
+  {
+      "id": "541",
+      "year": "1971",
+      "title": "Less developed regions",
+      "value": "2762133800",
+      "color": "#F04864"
+  },
+  {
+      "id": "542",
+      "year": "1972",
+      "title": "Less developed regions",
+      "value": "2827993300",
+      "color": "#F04864"
+  },
+  {
+      "id": "543",
+      "year": "1973",
+      "title": "Less developed regions",
+      "value": "2895245600",
+      "color": "#F04864"
+  },
+  {
+      "id": "544",
+      "year": "1974",
+      "title": "Less developed regions",
+      "value": "2962549800",
+      "color": "#F04864"
+  },
+  {
+      "id": "545",
+      "year": "1975",
+      "title": "Less developed regions",
+      "value": "3028753400",
+      "color": "#F04864"
+  },
+  {
+      "id": "546",
+      "year": "1976",
+      "title": "Less developed regions",
+      "value": "3094532900",
+      "color": "#F04864"
+  },
+  {
+      "id": "547",
+      "year": "1977",
+      "title": "Less developed regions",
+      "value": "3160565800",
+      "color": "#F04864"
+  },
+  {
+      "id": "548",
+      "year": "1978",
+      "title": "Less developed regions",
+      "value": "3227246000",
+      "color": "#F04864"
+  },
+  {
+      "id": "549",
+      "year": "1979",
+      "title": "Less developed regions",
+      "value": "3296075000",
+      "color": "#F04864"
+  },
+  {
+      "id": "550",
+      "year": "1980",
+      "title": "Less developed regions",
+      "value": "3367331600",
+      "color": "#F04864"
+  },
+  {
+      "id": "551",
+      "year": "1981",
+      "title": "Less developed regions",
+      "value": "3441141500",
+      "color": "#F04864"
+  },
+  {
+      "id": "552",
+      "year": "1982",
+      "title": "Less developed regions",
+      "value": "3518097400",
+      "color": "#F04864"
+  },
+  {
+      "id": "553",
+      "year": "1983",
+      "title": "Less developed regions",
+      "value": "3595609300",
+      "color": "#F04864"
+  },
+  {
+      "id": "554",
+      "year": "1984",
+      "title": "Less developed regions",
+      "value": "3673254400",
+      "color": "#F04864"
+  },
+  {
+      "id": "555",
+      "year": "1985",
+      "title": "Less developed regions",
+      "value": "3752936200",
+      "color": "#F04864"
+  },
+  {
+      "id": "556",
+      "year": "1986",
+      "title": "Less developed regions",
+      "value": "3834929200",
+      "color": "#F04864"
+  },
+  {
+      "id": "557",
+      "year": "1987",
+      "title": "Less developed regions",
+      "value": "3919284500",
+      "color": "#F04864"
+  },
+  {
+      "id": "558",
+      "year": "1988",
+      "title": "Less developed regions",
+      "value": "4003988700",
+      "color": "#F04864"
+  },
+  {
+      "id": "559",
+      "year": "1989",
+      "title": "Less developed regions",
+      "value": "4088878000",
+      "color": "#F04864"
+  },
+  {
+      "id": "560",
+      "year": "1990",
+      "title": "Less developed regions",
+      "value": "4174686500",
+      "color": "#F04864"
+  },
+  {
+      "id": "561",
+      "year": "1991",
+      "title": "Less developed regions",
+      "value": "4258120400",
+      "color": "#F04864"
+  },
+  {
+      "id": "562",
+      "year": "1992",
+      "title": "Less developed regions",
+      "value": "4338343400",
+      "color": "#F04864"
+  },
+  {
+      "id": "563",
+      "year": "1993",
+      "title": "Less developed regions",
+      "value": "4417438000",
+      "color": "#F04864"
+  },
+  {
+      "id": "564",
+      "year": "1994",
+      "title": "Less developed regions",
+      "value": "4495743000",
+      "color": "#F04864"
+  },
+  {
+      "id": "565",
+      "year": "1995",
+      "title": "Less developed regions",
+      "value": "4573736400",
+      "color": "#F04864"
+  },
+  {
+      "id": "566",
+      "year": "1996",
+      "title": "Less developed regions",
+      "value": "4651325000",
+      "color": "#F04864"
+  },
+  {
+      "id": "567",
+      "year": "1997",
+      "title": "Less developed regions",
+      "value": "4728300000",
+      "color": "#F04864"
+  },
+  {
+      "id": "568",
+      "year": "1998",
+      "title": "Less developed regions",
+      "value": "4805043700",
+      "color": "#F04864"
+  },
+  {
+      "id": "569",
+      "year": "1999",
+      "title": "Less developed regions",
+      "value": "4881764400",
+      "color": "#F04864"
+  },
+  {
+      "id": "570",
+      "year": "2000",
+      "title": "Less developed regions",
+      "value": "4959047700",
+      "color": "#F04864"
+  },
+  {
+      "id": "571",
+      "year": "2001",
+      "title": "Less developed regions",
+      "value": "5037067300",
+      "color": "#F04864"
+  },
+  {
+      "id": "572",
+      "year": "2002",
+      "title": "Less developed regions",
+      "value": "5114944000",
+      "color": "#F04864"
+  },
+  {
+      "id": "573",
+      "year": "2003",
+      "title": "Less developed regions",
+      "value": "5192397300",
+      "color": "#F04864"
+  },
+  {
+      "id": "574",
+      "year": "2004",
+      "title": "Less developed regions",
+      "value": "5269925400",
+      "color": "#F04864"
+  },
+  {
+      "id": "575",
+      "year": "2005",
+      "title": "Less developed regions",
+      "value": "5347938300",
+      "color": "#F04864"
+  },
+  {
+      "id": "576",
+      "year": "2006",
+      "title": "Less developed regions",
+      "value": "5426598400",
+      "color": "#F04864"
+  },
+  {
+      "id": "577",
+      "year": "2007",
+      "title": "Less developed regions",
+      "value": "5505765000",
+      "color": "#F04864"
+  },
+  {
+      "id": "578",
+      "year": "2008",
+      "title": "Less developed regions",
+      "value": "5585716000",
+      "color": "#F04864"
+  },
+  {
+      "id": "579",
+      "year": "2009",
+      "title": "Less developed regions",
+      "value": "5667090400",
+      "color": "#F04864"
+  },
+  {
+      "id": "580",
+      "year": "2010",
+      "title": "Less developed regions",
+      "value": "5749583400",
+      "color": "#F04864"
+  },
+  {
+      "id": "581",
+      "year": "2011",
+      "title": "Less developed regions",
+      "value": "5832464400",
+      "color": "#F04864"
+  },
+  {
+      "id": "582",
+      "year": "2012",
+      "title": "Less developed regions",
+      "value": "5916328000",
+      "color": "#F04864"
+  },
+  {
+      "id": "583",
+      "year": "2013",
+      "title": "Less developed regions",
+      "value": "6000773600",
+      "color": "#F04864"
+  },
+  {
+      "id": "584",
+      "year": "2014",
+      "title": "Less developed regions",
+      "value": "6084975000",
+      "color": "#F04864"
+  },
+  {
+      "id": "585",
+      "year": "2015",
+      "title": "Less developed regions",
+      "value": "6168363500",
+      "color": "#F04864"
+  },
+  {
+      "id": "586",
+      "year": "2016",
+      "title": "Less developed regions",
+      "value": "6250849300",
+      "color": "#F04864"
+  },
+  {
+      "id": "587",
+      "year": "2017",
+      "title": "Less developed regions",
+      "value": "6332903400",
+      "color": "#F04864"
+  },
+  {
+      "id": "588",
+      "year": "2018",
+      "title": "Less developed regions",
+      "value": "6413056500",
+      "color": "#F04864"
+  },
+  {
+      "id": "589",
+      "year": "2019",
+      "title": "Less developed regions",
+      "value": "6490685400",
+      "color": "#F04864"
+  },
+  {
+      "id": "590",
+      "year": "2020",
+      "title": "Less developed regions",
+      "value": "6564795000",
+      "color": "#F04864"
+  },
+  {
+      "id": "591",
+      "year": "2021",
+      "title": "Less developed regions",
+      "value": "6633179000",
+      "color": "#F04864"
+  },
+  {
+      "id": "592",
+      "year": "1950",
+      "title": "Less developed regions, excluding China",
+      "value": "1139289600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "593",
+      "year": "1951",
+      "title": "Less developed regions, excluding China",
+      "value": "1163941000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "594",
+      "year": "1952",
+      "title": "Less developed regions, excluding China",
+      "value": "1190033300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "595",
+      "year": "1953",
+      "title": "Less developed regions, excluding China",
+      "value": "1217448600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "596",
+      "year": "1954",
+      "title": "Less developed regions, excluding China",
+      "value": "1246105100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "597",
+      "year": "1955",
+      "title": "Less developed regions, excluding China",
+      "value": "1276149600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "598",
+      "year": "1956",
+      "title": "Less developed regions, excluding China",
+      "value": "1307438200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "599",
+      "year": "1957",
+      "title": "Less developed regions, excluding China",
+      "value": "1339935500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "600",
+      "year": "1958",
+      "title": "Less developed regions, excluding China",
+      "value": "1373202700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "601",
+      "year": "1959",
+      "title": "Less developed regions, excluding China",
+      "value": "1407745900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "602",
+      "year": "1960",
+      "title": "Less developed regions, excluding China",
+      "value": "1443848300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "603",
+      "year": "1961",
+      "title": "Less developed regions, excluding China",
+      "value": "1480881700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "604",
+      "year": "1962",
+      "title": "Less developed regions, excluding China",
+      "value": "1519013800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "605",
+      "year": "1963",
+      "title": "Less developed regions, excluding China",
+      "value": "1558310700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "606",
+      "year": "1964",
+      "title": "Less developed regions, excluding China",
+      "value": "1598593000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "607",
+      "year": "1965",
+      "title": "Less developed regions, excluding China",
+      "value": "1639166700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "608",
+      "year": "1966",
+      "title": "Less developed regions, excluding China",
+      "value": "1680062700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "609",
+      "year": "1967",
+      "title": "Less developed regions, excluding China",
+      "value": "1722073900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "610",
+      "year": "1968",
+      "title": "Less developed regions, excluding China",
+      "value": "1765313900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "611",
+      "year": "1969",
+      "title": "Less developed regions, excluding China",
+      "value": "1809577000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "612",
+      "year": "1970",
+      "title": "Less developed regions, excluding China",
+      "value": "1854472400",
+      "color": "#FF6600"
+  },
+  {
+      "id": "613",
+      "year": "1971",
+      "title": "Less developed regions, excluding China",
+      "value": "1899277800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "614",
+      "year": "1972",
+      "title": "Less developed regions, excluding China",
+      "value": "1945158400",
+      "color": "#FF6600"
+  },
+  {
+      "id": "615",
+      "year": "1973",
+      "title": "Less developed regions, excluding China",
+      "value": "1993177000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "616",
+      "year": "1974",
+      "title": "Less developed regions, excluding China",
+      "value": "2042348300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "617",
+      "year": "1975",
+      "title": "Less developed regions, excluding China",
+      "value": "2092378800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "618",
+      "year": "1976",
+      "title": "Less developed regions, excluding China",
+      "value": "2143490700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "619",
+      "year": "1977",
+      "title": "Less developed regions, excluding China",
+      "value": "2195901700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "620",
+      "year": "1978",
+      "title": "Less developed regions, excluding China",
+      "value": "2249609500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "621",
+      "year": "1979",
+      "title": "Less developed regions, excluding China",
+      "value": "2304864300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "622",
+      "year": "1980",
+      "title": "Less developed regions, excluding China",
+      "value": "2361634800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "623",
+      "year": "1981",
+      "title": "Less developed regions, excluding China",
+      "value": "2420155100",
+      "color": "#FF6600"
+  },
+  {
+      "id": "624",
+      "year": "1982",
+      "title": "Less developed regions, excluding China",
+      "value": "2480498000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "625",
+      "year": "1983",
+      "title": "Less developed regions, excluding China",
+      "value": "2541887700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "626",
+      "year": "1984",
+      "title": "Less developed regions, excluding China",
+      "value": "2604223000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "627",
+      "year": "1985",
+      "title": "Less developed regions, excluding China",
+      "value": "2667485000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "628",
+      "year": "1986",
+      "title": "Less developed regions, excluding China",
+      "value": "2731604500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "629",
+      "year": "1987",
+      "title": "Less developed regions, excluding China",
+      "value": "2796546600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "630",
+      "year": "1988",
+      "title": "Less developed regions, excluding China",
+      "value": "2861897500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "631",
+      "year": "1989",
+      "title": "Less developed regions, excluding China",
+      "value": "2927969000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "632",
+      "year": "1990",
+      "title": "Less developed regions, excluding China",
+      "value": "2994207200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "633",
+      "year": "1991",
+      "title": "Less developed regions, excluding China",
+      "value": "3060437800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "634",
+      "year": "1992",
+      "title": "Less developed regions, excluding China",
+      "value": "3127197700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "635",
+      "year": "1993",
+      "title": "Less developed regions, excluding China",
+      "value": "3193986300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "636",
+      "year": "1994",
+      "title": "Less developed regions, excluding China",
+      "value": "3260605700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "637",
+      "year": "1995",
+      "title": "Less developed regions, excluding China",
+      "value": "3327495700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "638",
+      "year": "1996",
+      "title": "Less developed regions, excluding China",
+      "value": "3394675700",
+      "color": "#FF6600"
+  },
+  {
+      "id": "639",
+      "year": "1997",
+      "title": "Less developed regions, excluding China",
+      "value": "3461880600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "640",
+      "year": "1998",
+      "title": "Less developed regions, excluding China",
+      "value": "3529329200",
+      "color": "#FF6600"
+  },
+  {
+      "id": "641",
+      "year": "1999",
+      "title": "Less developed regions, excluding China",
+      "value": "3597206300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "642",
+      "year": "2000",
+      "title": "Less developed regions, excluding China",
+      "value": "3665590800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "643",
+      "year": "2001",
+      "title": "Less developed regions, excluding China",
+      "value": "3734754000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "644",
+      "year": "2002",
+      "title": "Less developed regions, excluding China",
+      "value": "3804249900",
+      "color": "#FF6600"
+  },
+  {
+      "id": "645",
+      "year": "2003",
+      "title": "Less developed regions, excluding China",
+      "value": "3873581300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "646",
+      "year": "2004",
+      "title": "Less developed regions, excluding China",
+      "value": "3943014000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "647",
+      "year": "2005",
+      "title": "Less developed regions, excluding China",
+      "value": "4012829000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "648",
+      "year": "2006",
+      "title": "Less developed regions, excluding China",
+      "value": "4083174400",
+      "color": "#FF6600"
+  },
+  {
+      "id": "649",
+      "year": "2007",
+      "title": "Less developed regions, excluding China",
+      "value": "4153792500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "650",
+      "year": "2008",
+      "title": "Less developed regions, excluding China",
+      "value": "4224970800",
+      "color": "#FF6600"
+  },
+  {
+      "id": "651",
+      "year": "2009",
+      "title": "Less developed regions, excluding China",
+      "value": "4297283000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "652",
+      "year": "2010",
+      "title": "Less developed regions, excluding China",
+      "value": "4370619000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "653",
+      "year": "2011",
+      "title": "Less developed regions, excluding China",
+      "value": "4444479500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "654",
+      "year": "2012",
+      "title": "Less developed regions, excluding China",
+      "value": "4518716400",
+      "color": "#FF6600"
+  },
+  {
+      "id": "655",
+      "year": "2013",
+      "title": "Less developed regions, excluding China",
+      "value": "4593453000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "656",
+      "year": "2014",
+      "title": "Less developed regions, excluding China",
+      "value": "4668406300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "657",
+      "year": "2015",
+      "title": "Less developed regions, excluding China",
+      "value": "4743121000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "658",
+      "year": "2016",
+      "title": "Less developed regions, excluding China",
+      "value": "4817302500",
+      "color": "#FF6600"
+  },
+  {
+      "id": "659",
+      "year": "2017",
+      "title": "Less developed regions, excluding China",
+      "value": "4890862000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "660",
+      "year": "2018",
+      "title": "Less developed regions, excluding China",
+      "value": "4964128300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "661",
+      "year": "2019",
+      "title": "Less developed regions, excluding China",
+      "value": "5036884000",
+      "color": "#FF6600"
+  },
+  {
+      "id": "662",
+      "year": "2020",
+      "title": "Less developed regions, excluding China",
+      "value": "5107866600",
+      "color": "#FF6600"
+  },
+  {
+      "id": "663",
+      "year": "2021",
+      "title": "Less developed regions, excluding China",
+      "value": "5175244300",
+      "color": "#FF6600"
+  },
+  {
+      "id": "664",
+      "year": "1950",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1495969200",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "665",
+      "year": "1951",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1526646400",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "666",
+      "year": "1952",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1560329900",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "667",
+      "year": "1953",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1596331900",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "668",
+      "year": "1954",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1633577300",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "669",
+      "year": "1955",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1672845000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "670",
+      "year": "1956",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1712770800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "671",
+      "year": "1957",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1754560900",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "672",
+      "year": "1958",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1797169800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "673",
+      "year": "1959",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1835371300",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "674",
+      "year": "1960",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1868325000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "675",
+      "year": "1961",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1901028200",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "676",
+      "year": "1962",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1942838900",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "677",
+      "year": "1963",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "1995569900",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "678",
+      "year": "1964",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2050445800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "679",
+      "year": "1965",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2103927600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "680",
+      "year": "1966",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2157416000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "681",
+      "year": "1967",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2210652700",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "682",
+      "year": "1968",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2266063400",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "683",
+      "year": "1969",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2324010800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "684",
+      "year": "1970",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2382717700",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "685",
+      "year": "1971",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2441687600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "686",
+      "year": "1972",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2500239400",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "687",
+      "year": "1973",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2559129900",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "688",
+      "year": "1974",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2617781000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "689",
+      "year": "1975",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2675426800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "690",
+      "year": "1976",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2732790500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "691",
+      "year": "1977",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2790126000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "692",
+      "year": "1978",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2847254000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "693",
+      "year": "1979",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2906018000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "694",
+      "year": "1980",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "2968085000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "695",
+      "year": "1981",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3032988200",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "696",
+      "year": "1982",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3099626200",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "697",
+      "year": "1983",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3165768200",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "698",
+      "year": "1984",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3231701000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "699",
+      "year": "1985",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3299526100",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "700",
+      "year": "1986",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3369710300",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "701",
+      "year": "1987",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3442091800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "702",
+      "year": "1988",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3514824700",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "703",
+      "year": "1989",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3587406600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "704",
+      "year": "1990",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3660717800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "705",
+      "year": "1991",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3731584800",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "706",
+      "year": "1992",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3797724400",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "707",
+      "year": "1993",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3861514500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "708",
+      "year": "1994",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3924872700",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "709",
+      "year": "1995",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "3988123400",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "710",
+      "year": "1996",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4050873600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "711",
+      "year": "1997",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4112997600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "712",
+      "year": "1998",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4174556000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "713",
+      "year": "1999",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4235512300",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "714",
+      "year": "2000",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4297029600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "715",
+      "year": "2001",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4358971400",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "716",
+      "year": "2002",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4419226000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "717",
+      "year": "2003",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4478483000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "718",
+      "year": "2004",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4538188300",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "719",
+      "year": "2005",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4598085600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "720",
+      "year": "2006",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4658387000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "721",
+      "year": "2007",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4719447600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "722",
+      "year": "2008",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4781078500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "723",
+      "year": "2009",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4843390500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "724",
+      "year": "2010",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4906070500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "725",
+      "year": "2011",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "4968329700",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "726",
+      "year": "2012",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5030953000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "727",
+      "year": "2013",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5093639700",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "728",
+      "year": "2014",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5155577000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "729",
+      "year": "2015",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5216435000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "730",
+      "year": "2016",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5275583500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "731",
+      "year": "2017",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5333614600",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "732",
+      "year": "2018",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5389562400",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "733",
+      "year": "2019",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5442492000",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "734",
+      "year": "2020",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5491051500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "735",
+      "year": "2021",
+      "title": "Less developed regions, excluding least developed countries",
+      "value": "5533610500",
+      "color": "#00CCFF"
+  },
+  {
+      "id": "736",
+      "year": "1950",
+      "title": "Lower-middle-income countries",
+      "value": "788620700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "737",
+      "year": "1951",
+      "title": "Lower-middle-income countries",
+      "value": "805591040",
+      "color": "#4169E1"
+  },
+  {
+      "id": "738",
+      "year": "1952",
+      "title": "Lower-middle-income countries",
+      "value": "823223500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "739",
+      "year": "1953",
+      "title": "Lower-middle-income countries",
+      "value": "841477400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "740",
+      "year": "1954",
+      "title": "Lower-middle-income countries",
+      "value": "860486700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "741",
+      "year": "1955",
+      "title": "Lower-middle-income countries",
+      "value": "880418370",
+      "color": "#4169E1"
+  },
+  {
+      "id": "742",
+      "year": "1956",
+      "title": "Lower-middle-income countries",
+      "value": "901064260",
+      "color": "#4169E1"
+  },
+  {
+      "id": "743",
+      "year": "1957",
+      "title": "Lower-middle-income countries",
+      "value": "922440900",
+      "color": "#4169E1"
+  },
+  {
+      "id": "744",
+      "year": "1958",
+      "title": "Lower-middle-income countries",
+      "value": "944317100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "745",
+      "year": "1959",
+      "title": "Lower-middle-income countries",
+      "value": "966992000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "746",
+      "year": "1960",
+      "title": "Lower-middle-income countries",
+      "value": "990628900",
+      "color": "#4169E1"
+  },
+  {
+      "id": "747",
+      "year": "1961",
+      "title": "Lower-middle-income countries",
+      "value": "1014732860",
+      "color": "#4169E1"
+  },
+  {
+      "id": "748",
+      "year": "1962",
+      "title": "Lower-middle-income countries",
+      "value": "1039453760",
+      "color": "#4169E1"
+  },
+  {
+      "id": "749",
+      "year": "1963",
+      "title": "Lower-middle-income countries",
+      "value": "1064897000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "750",
+      "year": "1964",
+      "title": "Lower-middle-income countries",
+      "value": "1090954500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "751",
+      "year": "1965",
+      "title": "Lower-middle-income countries",
+      "value": "1116975100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "752",
+      "year": "1966",
+      "title": "Lower-middle-income countries",
+      "value": "1143003600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "753",
+      "year": "1967",
+      "title": "Lower-middle-income countries",
+      "value": "1169754800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "754",
+      "year": "1968",
+      "title": "Lower-middle-income countries",
+      "value": "1197398300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "755",
+      "year": "1969",
+      "title": "Lower-middle-income countries",
+      "value": "1225854700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "756",
+      "year": "1970",
+      "title": "Lower-middle-income countries",
+      "value": "1254715300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "757",
+      "year": "1971",
+      "title": "Lower-middle-income countries",
+      "value": "1283376500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "758",
+      "year": "1972",
+      "title": "Lower-middle-income countries",
+      "value": "1313003500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "759",
+      "year": "1973",
+      "title": "Lower-middle-income countries",
+      "value": "1344344000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "760",
+      "year": "1974",
+      "title": "Lower-middle-income countries",
+      "value": "1376418000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "761",
+      "year": "1975",
+      "title": "Lower-middle-income countries",
+      "value": "1409162100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "762",
+      "year": "1976",
+      "title": "Lower-middle-income countries",
+      "value": "1442809500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "763",
+      "year": "1977",
+      "title": "Lower-middle-income countries",
+      "value": "1477461500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "764",
+      "year": "1978",
+      "title": "Lower-middle-income countries",
+      "value": "1512587000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "765",
+      "year": "1979",
+      "title": "Lower-middle-income countries",
+      "value": "1548905100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "766",
+      "year": "1980",
+      "title": "Lower-middle-income countries",
+      "value": "1587733200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "767",
+      "year": "1981",
+      "title": "Lower-middle-income countries",
+      "value": "1628763500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "768",
+      "year": "1982",
+      "title": "Lower-middle-income countries",
+      "value": "1670281000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "769",
+      "year": "1983",
+      "title": "Lower-middle-income countries",
+      "value": "1711662200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "770",
+      "year": "1984",
+      "title": "Lower-middle-income countries",
+      "value": "1753548800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "771",
+      "year": "1985",
+      "title": "Lower-middle-income countries",
+      "value": "1796183000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "772",
+      "year": "1986",
+      "title": "Lower-middle-income countries",
+      "value": "1839450800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "773",
+      "year": "1987",
+      "title": "Lower-middle-income countries",
+      "value": "1883049900",
+      "color": "#4169E1"
+  },
+  {
+      "id": "774",
+      "year": "1988",
+      "title": "Lower-middle-income countries",
+      "value": "1926924800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "775",
+      "year": "1989",
+      "title": "Lower-middle-income countries",
+      "value": "1971124500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "776",
+      "year": "1990",
+      "title": "Lower-middle-income countries",
+      "value": "2016377600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "777",
+      "year": "1991",
+      "title": "Lower-middle-income countries",
+      "value": "2061665300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "778",
+      "year": "1992",
+      "title": "Lower-middle-income countries",
+      "value": "2105704000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "779",
+      "year": "1993",
+      "title": "Lower-middle-income countries",
+      "value": "2149098800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "780",
+      "year": "1994",
+      "title": "Lower-middle-income countries",
+      "value": "2192768500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "781",
+      "year": "1995",
+      "title": "Lower-middle-income countries",
+      "value": "2236853500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "782",
+      "year": "1996",
+      "title": "Lower-middle-income countries",
+      "value": "2280754700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "783",
+      "year": "1997",
+      "title": "Lower-middle-income countries",
+      "value": "2324964900",
+      "color": "#4169E1"
+  },
+  {
+      "id": "784",
+      "year": "1998",
+      "title": "Lower-middle-income countries",
+      "value": "2369648400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "785",
+      "year": "1999",
+      "title": "Lower-middle-income countries",
+      "value": "2414390800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "786",
+      "year": "2000",
+      "title": "Lower-middle-income countries",
+      "value": "2459781600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "787",
+      "year": "2001",
+      "title": "Lower-middle-income countries",
+      "value": "2505748200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "788",
+      "year": "2002",
+      "title": "Lower-middle-income countries",
+      "value": "2550642400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "789",
+      "year": "2003",
+      "title": "Lower-middle-income countries",
+      "value": "2594998500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "790",
+      "year": "2004",
+      "title": "Lower-middle-income countries",
+      "value": "2639837400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "791",
+      "year": "2005",
+      "title": "Lower-middle-income countries",
+      "value": "2684204500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "792",
+      "year": "2006",
+      "title": "Lower-middle-income countries",
+      "value": "2727931100",
+      "color": "#4169E1"
+  },
+  {
+      "id": "793",
+      "year": "2007",
+      "title": "Lower-middle-income countries",
+      "value": "2771698400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "794",
+      "year": "2008",
+      "title": "Lower-middle-income countries",
+      "value": "2815441200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "795",
+      "year": "2009",
+      "title": "Lower-middle-income countries",
+      "value": "2859631000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "796",
+      "year": "2010",
+      "title": "Lower-middle-income countries",
+      "value": "2905020000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "797",
+      "year": "2011",
+      "title": "Lower-middle-income countries",
+      "value": "2951039500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "798",
+      "year": "2012",
+      "title": "Lower-middle-income countries",
+      "value": "2997064700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "799",
+      "year": "2013",
+      "title": "Lower-middle-income countries",
+      "value": "3043228000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "800",
+      "year": "2014",
+      "title": "Lower-middle-income countries",
+      "value": "3089307600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "801",
+      "year": "2015",
+      "title": "Lower-middle-income countries",
+      "value": "3134754800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "802",
+      "year": "2016",
+      "title": "Lower-middle-income countries",
+      "value": "3180043800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "803",
+      "year": "2017",
+      "title": "Lower-middle-income countries",
+      "value": "3225191200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "804",
+      "year": "2018",
+      "title": "Lower-middle-income countries",
+      "value": "3269580500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "805",
+      "year": "2019",
+      "title": "Lower-middle-income countries",
+      "value": "3313063400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "806",
+      "year": "2020",
+      "title": "Lower-middle-income countries",
+      "value": "3356047600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "807",
+      "year": "2021",
+      "title": "Lower-middle-income countries",
+      "value": "3396756500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "808",
+      "year": "1996",
+      "title": "Low-income countries",
+      "value": "359616260",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "809",
+      "year": "1997",
+      "title": "Low-income countries",
+      "value": "369731520",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "810",
+      "year": "1998",
+      "title": "Low-income countries",
+      "value": "379823260",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "811",
+      "year": "1999",
+      "title": "Low-income countries",
+      "value": "390376130",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "812",
+      "year": "2000",
+      "title": "Low-income countries",
+      "value": "400821600",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "813",
+      "year": "2001",
+      "title": "Low-income countries",
+      "value": "411562000",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "814",
+      "year": "2002",
+      "title": "Low-income countries",
+      "value": "423858000",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "815",
+      "year": "2003",
+      "title": "Low-income countries",
+      "value": "436823070",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "816",
+      "year": "2004",
+      "title": "Low-income countries",
+      "value": "449503460",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "817",
+      "year": "2005",
+      "title": "Low-income countries",
+      "value": "462591600",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "818",
+      "year": "2006",
+      "title": "Low-income countries",
+      "value": "476615230",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "819",
+      "year": "2007",
+      "title": "Low-income countries",
+      "value": "490959940",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "820",
+      "year": "2008",
+      "title": "Low-income countries",
+      "value": "505273540",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "821",
+      "year": "2009",
+      "title": "Low-income countries",
+      "value": "519948540",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "822",
+      "year": "2010",
+      "title": "Low-income countries",
+      "value": "534960130",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "823",
+      "year": "2011",
+      "title": "Low-income countries",
+      "value": "550299840",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "824",
+      "year": "2012",
+      "title": "Low-income countries",
+      "value": "565536000",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "825",
+      "year": "2013",
+      "title": "Low-income countries",
+      "value": "580126140",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "826",
+      "year": "2014",
+      "title": "Low-income countries",
+      "value": "594773440",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "827",
+      "year": "2015",
+      "title": "Low-income countries",
+      "value": "610047200",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "828",
+      "year": "2016",
+      "title": "Low-income countries",
+      "value": "626382300",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "829",
+      "year": "2017",
+      "title": "Low-income countries",
+      "value": "643485700",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "830",
+      "year": "2018",
+      "title": "Low-income countries",
+      "value": "661256600",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "831",
+      "year": "2019",
+      "title": "Low-income countries",
+      "value": "680013440",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "832",
+      "year": "2020",
+      "title": "Low-income countries",
+      "value": "699186560",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "833",
+      "year": "2021",
+      "title": "Low-income countries",
+      "value": "718255100",
+      "color": "#2FC25B"
+  },
+  {
+      "id": "834",
+      "year": "1950",
+      "title": "More developed regions",
+      "value": "806252900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "835",
+      "year": "1951",
+      "title": "More developed regions",
+      "value": "815364740",
+      "color": "#DB7093"
+  },
+  {
+      "id": "836",
+      "year": "1952",
+      "title": "More developed regions",
+      "value": "824657600",
+      "color": "#DB7093"
+  },
+  {
+      "id": "837",
+      "year": "1953",
+      "title": "More developed regions",
+      "value": "834404400",
+      "color": "#DB7093"
+  },
+  {
+      "id": "838",
+      "year": "1954",
+      "title": "More developed regions",
+      "value": "844461760",
+      "color": "#DB7093"
+  },
+  {
+      "id": "839",
+      "year": "1955",
+      "title": "More developed regions",
+      "value": "854686600",
+      "color": "#DB7093"
+  },
+  {
+      "id": "840",
+      "year": "1956",
+      "title": "More developed regions",
+      "value": "864915260",
+      "color": "#DB7093"
+  },
+  {
+      "id": "841",
+      "year": "1957",
+      "title": "More developed regions",
+      "value": "875101250",
+      "color": "#DB7093"
+  },
+  {
+      "id": "842",
+      "year": "1958",
+      "title": "More developed regions",
+      "value": "885815940",
+      "color": "#DB7093"
+  },
+  {
+      "id": "843",
+      "year": "1959",
+      "title": "More developed regions",
+      "value": "896588160",
+      "color": "#DB7093"
+  },
+  {
+      "id": "844",
+      "year": "1960",
+      "title": "More developed regions",
+      "value": "906939600",
+      "color": "#DB7093"
+  },
+  {
+      "id": "845",
+      "year": "1961",
+      "title": "More developed regions",
+      "value": "917446200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "846",
+      "year": "1962",
+      "title": "More developed regions",
+      "value": "927762050",
+      "color": "#DB7093"
+  },
+  {
+      "id": "847",
+      "year": "1963",
+      "title": "More developed regions",
+      "value": "937746900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "848",
+      "year": "1964",
+      "title": "More developed regions",
+      "value": "947678460",
+      "color": "#DB7093"
+  },
+  {
+      "id": "849",
+      "year": "1965",
+      "title": "More developed regions",
+      "value": "957216960",
+      "color": "#DB7093"
+  },
+  {
+      "id": "850",
+      "year": "1966",
+      "title": "More developed regions",
+      "value": "965987900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "851",
+      "year": "1967",
+      "title": "More developed regions",
+      "value": "974462900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "852",
+      "year": "1968",
+      "title": "More developed regions",
+      "value": "982786800",
+      "color": "#DB7093"
+  },
+  {
+      "id": "853",
+      "year": "1969",
+      "title": "More developed regions",
+      "value": "990891300",
+      "color": "#DB7093"
+  },
+  {
+      "id": "854",
+      "year": "1970",
+      "title": "More developed regions",
+      "value": "999223300",
+      "color": "#DB7093"
+  },
+  {
+      "id": "855",
+      "year": "1971",
+      "title": "More developed regions",
+      "value": "1008029300",
+      "color": "#DB7093"
+  },
+  {
+      "id": "856",
+      "year": "1972",
+      "title": "More developed regions",
+      "value": "1016807600",
+      "color": "#DB7093"
+  },
+  {
+      "id": "857",
+      "year": "1973",
+      "title": "More developed regions",
+      "value": "1025005950",
+      "color": "#DB7093"
+  },
+  {
+      "id": "858",
+      "year": "1974",
+      "title": "More developed regions",
+      "value": "1032967200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "859",
+      "year": "1975",
+      "title": "More developed regions",
+      "value": "1040683900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "860",
+      "year": "1976",
+      "title": "More developed regions",
+      "value": "1047972900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "861",
+      "year": "1977",
+      "title": "More developed regions",
+      "value": "1055206660",
+      "color": "#DB7093"
+  },
+  {
+      "id": "862",
+      "year": "1978",
+      "title": "More developed regions",
+      "value": "1062411600",
+      "color": "#DB7093"
+  },
+  {
+      "id": "863",
+      "year": "1979",
+      "title": "More developed regions",
+      "value": "1069507840",
+      "color": "#DB7093"
+  },
+  {
+      "id": "864",
+      "year": "1980",
+      "title": "More developed regions",
+      "value": "1076676200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "865",
+      "year": "1981",
+      "title": "More developed regions",
+      "value": "1083486100",
+      "color": "#DB7093"
+  },
+  {
+      "id": "866",
+      "year": "1982",
+      "title": "More developed regions",
+      "value": "1089887400",
+      "color": "#DB7093"
+  },
+  {
+      "id": "867",
+      "year": "1983",
+      "title": "More developed regions",
+      "value": "1096275000",
+      "color": "#DB7093"
+  },
+  {
+      "id": "868",
+      "year": "1984",
+      "title": "More developed regions",
+      "value": "1102581500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "869",
+      "year": "1985",
+      "title": "More developed regions",
+      "value": "1108794500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "870",
+      "year": "1986",
+      "title": "More developed regions",
+      "value": "1115134200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "871",
+      "year": "1987",
+      "title": "More developed regions",
+      "value": "1121699800",
+      "color": "#DB7093"
+  },
+  {
+      "id": "872",
+      "year": "1988",
+      "title": "More developed regions",
+      "value": "1128305400",
+      "color": "#DB7093"
+  },
+  {
+      "id": "873",
+      "year": "1989",
+      "title": "More developed regions",
+      "value": "1134826100",
+      "color": "#DB7093"
+  },
+  {
+      "id": "874",
+      "year": "1990",
+      "title": "More developed regions",
+      "value": "1141489300",
+      "color": "#DB7093"
+  },
+  {
+      "id": "875",
+      "year": "1991",
+      "title": "More developed regions",
+      "value": "1148125400",
+      "color": "#DB7093"
+  },
+  {
+      "id": "876",
+      "year": "1992",
+      "title": "More developed regions",
+      "value": "1154342700",
+      "color": "#DB7093"
+  },
+  {
+      "id": "877",
+      "year": "1993",
+      "title": "More developed regions",
+      "value": "1159995500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "878",
+      "year": "1994",
+      "title": "More developed regions",
+      "value": "1164984800",
+      "color": "#DB7093"
+  },
+  {
+      "id": "879",
+      "year": "1995",
+      "title": "More developed regions",
+      "value": "1169482900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "880",
+      "year": "1996",
+      "title": "More developed regions",
+      "value": "1173820500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "881",
+      "year": "1997",
+      "title": "More developed regions",
+      "value": "1178181500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "882",
+      "year": "1998",
+      "title": "More developed regions",
+      "value": "1182268500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "883",
+      "year": "1999",
+      "title": "More developed regions",
+      "value": "1185994200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "884",
+      "year": "2000",
+      "title": "More developed regions",
+      "value": "1189851300",
+      "color": "#DB7093"
+  },
+  {
+      "id": "885",
+      "year": "2001",
+      "title": "More developed regions",
+      "value": "1193679500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "886",
+      "year": "2002",
+      "title": "More developed regions",
+      "value": "1197463200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "887",
+      "year": "2003",
+      "title": "More developed regions",
+      "value": "1201500900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "888",
+      "year": "2004",
+      "title": "More developed regions",
+      "value": "1205826300",
+      "color": "#DB7093"
+  },
+  {
+      "id": "889",
+      "year": "2005",
+      "title": "More developed regions",
+      "value": "1210238000",
+      "color": "#DB7093"
+  },
+  {
+      "id": "890",
+      "year": "2006",
+      "title": "More developed regions",
+      "value": "1214817800",
+      "color": "#DB7093"
+  },
+  {
+      "id": "891",
+      "year": "2007",
+      "title": "More developed regions",
+      "value": "1220183700",
+      "color": "#DB7093"
+  },
+  {
+      "id": "892",
+      "year": "2008",
+      "title": "More developed regions",
+      "value": "1225881200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "893",
+      "year": "2009",
+      "title": "More developed regions",
+      "value": "1231215500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "894",
+      "year": "2010",
+      "title": "More developed regions",
+      "value": "1236019800",
+      "color": "#DB7093"
+  },
+  {
+      "id": "895",
+      "year": "2011",
+      "title": "More developed regions",
+      "value": "1240661200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "896",
+      "year": "2012",
+      "title": "More developed regions",
+      "value": "1245369900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "897",
+      "year": "2013",
+      "title": "More developed regions",
+      "value": "1249819600",
+      "color": "#DB7093"
+  },
+  {
+      "id": "898",
+      "year": "2014",
+      "title": "More developed regions",
+      "value": "1254038500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "899",
+      "year": "2015",
+      "title": "More developed regions",
+      "value": "1258234100",
+      "color": "#DB7093"
+  },
+  {
+      "id": "900",
+      "year": "2016",
+      "title": "More developed regions",
+      "value": "1262624900",
+      "color": "#DB7093"
+  },
+  {
+      "id": "901",
+      "year": "2017",
+      "title": "More developed regions",
+      "value": "1266919200",
+      "color": "#DB7093"
+  },
+  {
+      "id": "902",
+      "year": "2018",
+      "title": "More developed regions",
+      "value": "1270733400",
+      "color": "#DB7093"
+  },
+  {
+      "id": "903",
+      "year": "2019",
+      "title": "More developed regions",
+      "value": "1274265500",
+      "color": "#DB7093"
+  },
+  {
+      "id": "904",
+      "year": "2021",
+      "title": "More developed regions",
+      "value": "1276116100",
+      "color": "#DB7093"
+  },
+  {
+      "id": "905",
+      "year": "2020",
+      "title": "More developed regions",
+      "value": "1276158000",
+      "color": "#DB7093"
+  },
+  {
+      "id": "906",
+      "year": "2014",
+      "title": "Northern America (UN)",
+      "value": "357563870",
+      "color": "#1890FF"
+  },
+  {
+      "id": "907",
+      "year": "2015",
+      "title": "Northern America (UN)",
+      "value": "360464930",
+      "color": "#1890FF"
+  },
+  {
+      "id": "908",
+      "year": "2016",
+      "title": "Northern America (UN)",
+      "value": "363448670",
+      "color": "#1890FF"
+  },
+  {
+      "id": "909",
+      "year": "2017",
+      "title": "Northern America (UN)",
+      "value": "366470720",
+      "color": "#1890FF"
+  },
+  {
+      "id": "910",
+      "year": "2018",
+      "title": "Northern America (UN)",
+      "value": "369300740",
+      "color": "#1890FF"
+  },
+  {
+      "id": "911",
+      "year": "2019",
+      "title": "Northern America (UN)",
+      "value": "371967900",
+      "color": "#1890FF"
+  },
+  {
+      "id": "912",
+      "year": "2020",
+      "title": "Northern America (UN)",
+      "value": "373956670",
+      "color": "#1890FF"
+  },
+  {
+      "id": "913",
+      "year": "2021",
+      "title": "Northern America (UN)",
+      "value": "375278940",
+      "color": "#1890FF"
+  },
+  {
+      "id": "914",
+      "year": "1950",
+      "title": "Upper-middle-income countries",
+      "value": "900338500",
+      "color": "#F04864"
+  },
+  {
+      "id": "915",
+      "year": "1951",
+      "title": "Upper-middle-income countries",
+      "value": "917683000",
+      "color": "#F04864"
+  },
+  {
+      "id": "916",
+      "year": "1952",
+      "title": "Upper-middle-income countries",
+      "value": "937054340",
+      "color": "#F04864"
+  },
+  {
+      "id": "917",
+      "year": "1953",
+      "title": "Upper-middle-income countries",
+      "value": "957823170",
+      "color": "#F04864"
+  },
+  {
+      "id": "918",
+      "year": "1954",
+      "title": "Upper-middle-income countries",
+      "value": "978953200",
+      "color": "#F04864"
+  },
+  {
+      "id": "919",
+      "year": "1955",
+      "title": "Upper-middle-income countries",
+      "value": "1001149700",
+      "color": "#F04864"
+  },
+  {
+      "id": "920",
+      "year": "1956",
+      "title": "Upper-middle-income countries",
+      "value": "1023335900",
+      "color": "#F04864"
+  },
+  {
+      "id": "921",
+      "year": "1957",
+      "title": "Upper-middle-income countries",
+      "value": "1046634940",
+      "color": "#F04864"
+  },
+  {
+      "id": "922",
+      "year": "1958",
+      "title": "Upper-middle-income countries",
+      "value": "1070174100",
+      "color": "#F04864"
+  },
+  {
+      "id": "923",
+      "year": "1959",
+      "title": "Upper-middle-income countries",
+      "value": "1088525200",
+      "color": "#F04864"
+  },
+  {
+      "id": "924",
+      "year": "1960",
+      "title": "Upper-middle-income countries",
+      "value": "1100797000",
+      "color": "#F04864"
+  },
+  {
+      "id": "925",
+      "year": "1961",
+      "title": "Upper-middle-income countries",
+      "value": "1112521600",
+      "color": "#F04864"
+  },
+  {
+      "id": "926",
+      "year": "1962",
+      "title": "Upper-middle-income countries",
+      "value": "1132669700",
+      "color": "#F04864"
+  },
+  {
+      "id": "927",
+      "year": "1963",
+      "title": "Upper-middle-income countries",
+      "value": "1162796300",
+      "color": "#F04864"
+  },
+  {
+      "id": "928",
+      "year": "1964",
+      "title": "Upper-middle-income countries",
+      "value": "1194328600",
+      "color": "#F04864"
+  },
+  {
+      "id": "929",
+      "year": "1965",
+      "title": "Upper-middle-income countries",
+      "value": "1224356400",
+      "color": "#F04864"
+  },
+  {
+      "id": "930",
+      "year": "1966",
+      "title": "Upper-middle-income countries",
+      "value": "1254225400",
+      "color": "#F04864"
+  },
+  {
+      "id": "931",
+      "year": "1967",
+      "title": "Upper-middle-income countries",
+      "value": "1283093600",
+      "color": "#F04864"
+  },
+  {
+      "id": "932",
+      "year": "1968",
+      "title": "Upper-middle-income countries",
+      "value": "1313243500",
+      "color": "#F04864"
+  },
+  {
+      "id": "933",
+      "year": "1969",
+      "title": "Upper-middle-income countries",
+      "value": "1345081600",
+      "color": "#F04864"
+  },
+  {
+      "id": "934",
+      "year": "1970",
+      "title": "Upper-middle-income countries",
+      "value": "1376899700",
+      "color": "#F04864"
+  },
+  {
+      "id": "935",
+      "year": "1971",
+      "title": "Upper-middle-income countries",
+      "value": "1408385700",
+      "color": "#F04864"
+  },
+  {
+      "id": "936",
+      "year": "1972",
+      "title": "Upper-middle-income countries",
+      "value": "1438899300",
+      "color": "#F04864"
+  },
+  {
+      "id": "937",
+      "year": "1973",
+      "title": "Upper-middle-income countries",
+      "value": "1468871700",
+      "color": "#F04864"
+  },
+  {
+      "id": "938",
+      "year": "1974",
+      "title": "Upper-middle-income countries",
+      "value": "1497926100",
+      "color": "#F04864"
+  },
+  {
+      "id": "939",
+      "year": "1975",
+      "title": "Upper-middle-income countries",
+      "value": "1525169800",
+      "color": "#F04864"
+  },
+  {
+      "id": "940",
+      "year": "1976",
+      "title": "Upper-middle-income countries",
+      "value": "1551005300",
+      "color": "#F04864"
+  },
+  {
+      "id": "941",
+      "year": "1977",
+      "title": "Upper-middle-income countries",
+      "value": "1576088400",
+      "color": "#F04864"
+  },
+  {
+      "id": "942",
+      "year": "1978",
+      "title": "Upper-middle-income countries",
+      "value": "1600795800",
+      "color": "#F04864"
+  },
+  {
+      "id": "943",
+      "year": "1979",
+      "title": "Upper-middle-income countries",
+      "value": "1626057000",
+      "color": "#F04864"
+  },
+  {
+      "id": "944",
+      "year": "1980",
+      "title": "Upper-middle-income countries",
+      "value": "1652165600",
+      "color": "#F04864"
+  },
+  {
+      "id": "945",
+      "year": "1981",
+      "title": "Upper-middle-income countries",
+      "value": "1678982000",
+      "color": "#F04864"
+  },
+  {
+      "id": "946",
+      "year": "1982",
+      "title": "Upper-middle-income countries",
+      "value": "1707285500",
+      "color": "#F04864"
+  },
+  {
+      "id": "947",
+      "year": "1983",
+      "title": "Upper-middle-income countries",
+      "value": "1735606400",
+      "color": "#F04864"
+  },
+  {
+      "id": "948",
+      "year": "1984",
+      "title": "Upper-middle-income countries",
+      "value": "1763327500",
+      "color": "#F04864"
+  },
+  {
+      "id": "949",
+      "year": "1985",
+      "title": "Upper-middle-income countries",
+      "value": "1792075300",
+      "color": "#F04864"
+  },
+  {
+      "id": "950",
+      "year": "1986",
+      "title": "Upper-middle-income countries",
+      "value": "1822580700",
+      "color": "#F04864"
+  },
+  {
+      "id": "951",
+      "year": "1987",
+      "title": "Upper-middle-income countries",
+      "value": "1854925000",
+      "color": "#F04864"
+  },
+  {
+      "id": "952",
+      "year": "1988",
+      "title": "Upper-middle-income countries",
+      "value": "1887097600",
+      "color": "#F04864"
+  },
+  {
+      "id": "953",
+      "year": "1989",
+      "title": "Upper-middle-income countries",
+      "value": "1918456400",
+      "color": "#F04864"
+  },
+  {
+      "id": "954",
+      "year": "1990",
+      "title": "Upper-middle-income countries",
+      "value": "1949992300",
+      "color": "#F04864"
+  },
+  {
+      "id": "955",
+      "year": "1991",
+      "title": "Upper-middle-income countries",
+      "value": "1978561900",
+      "color": "#F04864"
+  },
+  {
+      "id": "956",
+      "year": "1992",
+      "title": "Upper-middle-income countries",
+      "value": "2002796300",
+      "color": "#F04864"
+  },
+  {
+      "id": "957",
+      "year": "1993",
+      "title": "Upper-middle-income countries",
+      "value": "2025766500",
+      "color": "#F04864"
+  },
+  {
+      "id": "958",
+      "year": "1994",
+      "title": "Upper-middle-income countries",
+      "value": "2047898000",
+      "color": "#F04864"
+  },
+  {
+      "id": "959",
+      "year": "1995",
+      "title": "Upper-middle-income countries",
+      "value": "2068981600",
+      "color": "#F04864"
+  },
+  {
+      "id": "960",
+      "year": "1996",
+      "title": "Upper-middle-income countries",
+      "value": "2089270000",
+      "color": "#F04864"
+  },
+  {
+      "id": "961",
+      "year": "1997",
+      "title": "Upper-middle-income countries",
+      "value": "2108679000",
+      "color": "#F04864"
+  },
+  {
+      "id": "962",
+      "year": "1998",
+      "title": "Upper-middle-income countries",
+      "value": "2127226500",
+      "color": "#F04864"
+  },
+  {
+      "id": "963",
+      "year": "1999",
+      "title": "Upper-middle-income countries",
+      "value": "2145077800",
+      "color": "#F04864"
+  },
+  {
+      "id": "964",
+      "year": "2000",
+      "title": "Upper-middle-income countries",
+      "value": "2162967000",
+      "color": "#F04864"
+  },
+  {
+      "id": "965",
+      "year": "2001",
+      "title": "Upper-middle-income countries",
+      "value": "2180721400",
+      "color": "#F04864"
+  },
+  {
+      "id": "966",
+      "year": "2002",
+      "title": "Upper-middle-income countries",
+      "value": "2197877800",
+      "color": "#F04864"
+  },
+  {
+      "id": "967",
+      "year": "2003",
+      "title": "Upper-middle-income countries",
+      "value": "2214578000",
+      "color": "#F04864"
+  },
+  {
+      "id": "968",
+      "year": "2004",
+      "title": "Upper-middle-income countries",
+      "value": "2231282400",
+      "color": "#F04864"
+  },
+  {
+      "id": "969",
+      "year": "2005",
+      "title": "Upper-middle-income countries",
+      "value": "2248162600",
+      "color": "#F04864"
+  },
+  {
+      "id": "970",
+      "year": "2006",
+      "title": "Upper-middle-income countries",
+      "value": "2264739600",
+      "color": "#F04864"
+  },
+  {
+      "id": "971",
+      "year": "2007",
+      "title": "Upper-middle-income countries",
+      "value": "2281224700",
+      "color": "#F04864"
+  },
+  {
+      "id": "972",
+      "year": "2008",
+      "title": "Upper-middle-income countries",
+      "value": "2298622200",
+      "color": "#F04864"
+  },
+  {
+      "id": "973",
+      "year": "2009",
+      "title": "Upper-middle-income countries",
+      "value": "2316978200",
+      "color": "#F04864"
+  },
+  {
+      "id": "974",
+      "year": "2010",
+      "title": "Upper-middle-income countries",
+      "value": "2335530200",
+      "color": "#F04864"
+  },
+  {
+      "id": "975",
+      "year": "2011",
+      "title": "Upper-middle-income countries",
+      "value": "2353897500",
+      "color": "#F04864"
+  },
+  {
+      "id": "976",
+      "year": "2012",
+      "title": "Upper-middle-income countries",
+      "value": "2373431000",
+      "color": "#F04864"
+  },
+  {
+      "id": "977",
+      "year": "2013",
+      "title": "Upper-middle-income countries",
+      "value": "2394150100",
+      "color": "#F04864"
+  },
+  {
+      "id": "978",
+      "year": "2014",
+      "title": "Upper-middle-income countries",
+      "value": "2414815200",
+      "color": "#F04864"
+  },
+  {
+      "id": "979",
+      "year": "2015",
+      "title": "Upper-middle-income countries",
+      "value": "2434787600",
+      "color": "#F04864"
+  },
+  {
+      "id": "980",
+      "year": "2016",
+      "title": "Upper-middle-income countries",
+      "value": "2453269200",
+      "color": "#F04864"
+  },
+  {
+      "id": "981",
+      "year": "2017",
+      "title": "Upper-middle-income countries",
+      "value": "2471104800",
+      "color": "#F04864"
+  },
+  {
+      "id": "982",
+      "year": "2018",
+      "title": "Upper-middle-income countries",
+      "value": "2487462700",
+      "color": "#F04864"
+  },
+  {
+      "id": "983",
+      "year": "2019",
+      "title": "Upper-middle-income countries",
+      "value": "2501414100",
+      "color": "#F04864"
+  },
+  {
+      "id": "984",
+      "year": "2020",
+      "title": "Upper-middle-income countries",
+      "value": "2512477200",
+      "color": "#F04864"
+  },
+  {
+      "id": "985",
+      "year": "2021",
+      "title": "Upper-middle-income countries",
+      "value": "2519863600",
+      "color": "#F04864"
+  },
+  {
+      "id": "986",
+      "year": "1950",
+      "title": "World",
+      "value": "2499322000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "987",
+      "year": "1951",
+      "title": "World",
+      "value": "2543130400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "988",
+      "year": "1952",
+      "title": "World",
+      "value": "2590271000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "989",
+      "year": "1953",
+      "title": "World",
+      "value": "2640278800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "990",
+      "year": "1954",
+      "title": "World",
+      "value": "2691979300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "991",
+      "year": "1955",
+      "title": "World",
+      "value": "2746072000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "992",
+      "year": "1956",
+      "title": "World",
+      "value": "2801002800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "993",
+      "year": "1957",
+      "title": "World",
+      "value": "2857866800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "994",
+      "year": "1958",
+      "title": "World",
+      "value": "2916108000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "995",
+      "year": "1959",
+      "title": "World",
+      "value": "2970292200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "996",
+      "year": "1960",
+      "title": "World",
+      "value": "3019233500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "997",
+      "year": "1961",
+      "title": "World",
+      "value": "3068370700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "998",
+      "year": "1962",
+      "title": "World",
+      "value": "3126686700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "999",
+      "year": "1963",
+      "title": "World",
+      "value": "3195779300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1000",
+      "year": "1964",
+      "title": "World",
+      "value": "3267212300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1001",
+      "year": "1965",
+      "title": "World",
+      "value": "3337112000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1002",
+      "year": "1966",
+      "title": "World",
+      "value": "3406417000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1003",
+      "year": "1967",
+      "title": "World",
+      "value": "3475448000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1004",
+      "year": "1968",
+      "title": "World",
+      "value": "3546811000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1005",
+      "year": "1969",
+      "title": "World",
+      "value": "3620655400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1006",
+      "year": "1970",
+      "title": "World",
+      "value": "3695390200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1007",
+      "year": "1971",
+      "title": "World",
+      "value": "3770163200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1008",
+      "year": "1972",
+      "title": "World",
+      "value": "3844800800",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1009",
+      "year": "1973",
+      "title": "World",
+      "value": "3920251400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1010",
+      "year": "1974",
+      "title": "World",
+      "value": "3995517000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1011",
+      "year": "1975",
+      "title": "World",
+      "value": "4069437200",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1012",
+      "year": "1976",
+      "title": "World",
+      "value": "4142505700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1013",
+      "year": "1977",
+      "title": "World",
+      "value": "4215772400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1014",
+      "year": "1978",
+      "title": "World",
+      "value": "4289657600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1015",
+      "year": "1979",
+      "title": "World",
+      "value": "4365583000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1016",
+      "year": "1980",
+      "title": "World",
+      "value": "4444008000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1017",
+      "year": "1981",
+      "title": "World",
+      "value": "4524627500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1018",
+      "year": "1982",
+      "title": "World",
+      "value": "4607984600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1019",
+      "year": "1983",
+      "title": "World",
+      "value": "4691884000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1020",
+      "year": "1984",
+      "title": "World",
+      "value": "4775836000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1021",
+      "year": "1985",
+      "title": "World",
+      "value": "4861731000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1022",
+      "year": "1986",
+      "title": "World",
+      "value": "4950063000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1023",
+      "year": "1987",
+      "title": "World",
+      "value": "5040984600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1024",
+      "year": "1988",
+      "title": "World",
+      "value": "5132294000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1025",
+      "year": "1989",
+      "title": "World",
+      "value": "5223704000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1026",
+      "year": "1990",
+      "title": "World",
+      "value": "5316176000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1027",
+      "year": "1991",
+      "title": "World",
+      "value": "5406246000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1028",
+      "year": "1992",
+      "title": "World",
+      "value": "5492686300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1029",
+      "year": "1993",
+      "title": "World",
+      "value": "5577433600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1030",
+      "year": "1994",
+      "title": "World",
+      "value": "5660728000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1031",
+      "year": "1995",
+      "title": "World",
+      "value": "5743219700",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1032",
+      "year": "1996",
+      "title": "World",
+      "value": "5825145300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1033",
+      "year": "1997",
+      "title": "World",
+      "value": "5906481000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1034",
+      "year": "1998",
+      "title": "World",
+      "value": "5987312600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1035",
+      "year": "1999",
+      "title": "World",
+      "value": "6067758600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1036",
+      "year": "2000",
+      "title": "World",
+      "value": "6148899000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1037",
+      "year": "2001",
+      "title": "World",
+      "value": "6230747000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1038",
+      "year": "2002",
+      "title": "World",
+      "value": "6312407600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1039",
+      "year": "2003",
+      "title": "World",
+      "value": "6393898500",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1040",
+      "year": "2004",
+      "title": "World",
+      "value": "6475751400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1041",
+      "year": "2005",
+      "title": "World",
+      "value": "6558176000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1042",
+      "year": "2006",
+      "title": "World",
+      "value": "6641416000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1043",
+      "year": "2007",
+      "title": "World",
+      "value": "6725948400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1044",
+      "year": "2008",
+      "title": "World",
+      "value": "6811597300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1045",
+      "year": "2009",
+      "title": "World",
+      "value": "6898306000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1046",
+      "year": "2010",
+      "title": "World",
+      "value": "6985603000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1047",
+      "year": "2011",
+      "title": "World",
+      "value": "7073125400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1048",
+      "year": "2012",
+      "title": "World",
+      "value": "7161698000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1049",
+      "year": "2013",
+      "title": "World",
+      "value": "7250593300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1050",
+      "year": "2014",
+      "title": "World",
+      "value": "7339013600",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1051",
+      "year": "2015",
+      "title": "World",
+      "value": "7426597400",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1052",
+      "year": "2016",
+      "title": "World",
+      "value": "7513474000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1053",
+      "year": "2017",
+      "title": "World",
+      "value": "7599822300",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1054",
+      "year": "2018",
+      "title": "World",
+      "value": "7683790000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1055",
+      "year": "2019",
+      "title": "World",
+      "value": "7764951000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1056",
+      "year": "2020",
+      "title": "World",
+      "value": "7840953000",
+      "color": "#4169E1"
+  },
+  {
+      "id": "1057",
+      "year": "2021",
+      "title": "World",
+      "value": "7909295000",
+      "color": "#4169E1"
+  }
+]

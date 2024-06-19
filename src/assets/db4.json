@@ -1,0 +1,20 @@
+﻿[
+  { "id": 0, "title": "a", "value": 543, "color": "#50c4fe" },
+  { "id": 1, "title": "b", "value": 4520, "color": "#3fc42d" },
+  { "id": 2, "title": "c", "value": 42, "color": "#c33178" },
+  { "id": 3, "title": "d", "value": 6558, "color": "#423bce" },
+  { "id": 4, "title": "e", "value": 54578, "color": "#c8303b" },
+  { "id": 5, "title": "f", "value": 16, "color": "#2c2c2c" },
+  { "id": 6, "title": "a", "value": 64, "color": "#50c4fe" },
+  { "id": 7, "title": "b", "value": 32578, "color": "#3fc42d" },
+  { "id": 8, "title": "c", "value": 29, "color": "#c33178" },
+  { "id": 9, "title": "d", "value": 2788, "color": "#423bce" },
+  { "id": 10, "title": "e", "value": 58, "color": "#c8303b" },
+  { "id": 11, "title": "f", "value": 782, "color": "#2c2c2c" },
+  { "id": 12, "title": "a", "value": 64, "color": "#50c4fe" },
+  { "id": 13, "title": "b", "value": 38782, "color": "#3fc42d" },
+  { "id": 14, "title": "c", "value": 209, "color": "#c33178" },
+  { "id": 15, "title": "d", "value": 682, "color": "#423bce" },
+  { "id": 16, "title": "e", "value": 582, "color": "#c8303b" },
+  { "id": 17, "title": "f", "value": 160, "color": "#2c2c2c" }
+]

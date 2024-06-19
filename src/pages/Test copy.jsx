@@ -1,51 +1,56 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import ChartRace from 'react-chart-race';
-import data from '../assets/db5.json';
+import data from '../assets/db2.json';
 
 const Test = () => {
   const [currentYear, setCurrentYear] = useState(1950);
   const [isRunning, setIsRunning] = useState(true);
-  const [speed, setSpeed] = useState(10000);
-  const [countryData, setCountryData] = useState([]);
+  const [speed, setSpeed] = useState(100);
+  const [topCountriesData, setTopCountriesData] = useState([]);
 
-  const filterDataByYear = (year) => {
-    const filteredData = data.filter(item => item.year === year.toString());
+  // Function to filter and update top countries data based on selected year
+  const filterDataByYear = useCallback((year, populationData) => {
+    const filteredData = populationData.filter(entry => entry.Year === year.toString());
 
-    const intData = filteredData.map((item) => ({
-      id: item.title,
-      title: item.title,
-      value: parseInt(item.value),
-      color: item.color,
+    const countriesPopulation = {};
+    filteredData.forEach(entry => {
+      const { title, value } = entry;
+      countriesPopulation[title] = (countriesPopulation[title] || 0) + parseInt(value);
+    });
+
+    const sortedCountries = Object.keys(countriesPopulation).sort((a, b) => countriesPopulation[b] - countriesPopulation[a]).slice(0, 12);
+    const topCountriesDataForYear = sortedCountries.map(country => ({
+      id: country,
+      title: country,
+      value: countriesPopulation[country],
+      color: filteredData.find(entry => entry.title === country)?.color || '#000'
     }));
 
-    const topTwelve = intData.sort((a, b) => b.value - a.value).slice(0, 12);
+    setTopCountriesData(topCountriesDataForYear);
+  }, []);
 
-    setCountryData(topTwelve);
-  };
-
+  // Effect to update data whenever currentYear changes
   useEffect(() => {
-    filterDataByYear(currentYear);
-  }, [currentYear]);
+    filterDataByYear(currentYear, data);
+  }, [currentYear, filterDataByYear]);
 
+  // Effect to manage animation loop based on isRunning and speed
   useEffect(() => {
+    let interval = null;
     if (isRunning) {
-      const interval = setInterval(() => {
+      interval = setInterval(() => {
         setCurrentYear(prevYear => {
           const nextYear = prevYear < 2021 ? prevYear + 1 : 1950;
+          filterDataByYear(nextYear, data);
           return nextYear;
         });
       }, speed);
-
-      return () => clearInterval(interval);
     }
-  }, [isRunning, speed]);
 
-  // Effect to update country data when the year changes and isRunning is true
-  useEffect(() => {
-    if (isRunning) {
-      filterDataByYear(currentYear);
-    }
-  }, [currentYear, isRunning]);
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [isRunning, speed, filterDataByYear]);
 
   // Handler to start/stop animation
   const handleStartStop = () => {
@@ -95,6 +100,7 @@ const Test = () => {
             <select
               value={speed}
               onChange={handleSpeedChange}
+              disabled={isRunning}
               className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value={2000}>Slow</option>
@@ -107,13 +113,15 @@ const Test = () => {
 
         <div className="mt-4">
           <ChartRace
-            data={countryData}
+            data={topCountriesData}
             backgroundColor='#fff'
             width={760}
             padding={12}
             itemHeight={58}
+            gap={12}
+            title="Population by Country"
             titleStyle={{ font: 'normal 400 13px Arial', color: '#000' }}
-            animationDuration={speed}
+            animationDuration={speed} 
           />
         </div>
       </div>
