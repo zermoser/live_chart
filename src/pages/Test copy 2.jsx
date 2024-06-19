@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
 import ChartRace from 'react-chart-race';
 
-export default class App extends Component{
-
-  constructor(props){
+export default class App extends Component {
+  constructor(props) {
     super(props);
     this.state = {
       data: []
     };
-    this.handleChange();
-    setInterval(() => {
-      this.handleChange();
-    }, 2000);
+    this.updateData();
+    setInterval(this.updateData, 2000);
   }
 
-  getRandomInt(min, max){
+  getRandomInt = (min, max) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
+  };
 
-  handleChange(){
+  updateData = () => {
     const data = [
       { id: 0, title: 'Ayfonkarahisar', value: this.getRandomInt(10, 90), color: '#50c4fe' },
       { id: 1, title: 'Kayseri', value: 38, color: '#3fc42d' },
@@ -30,14 +27,14 @@ export default class App extends Component{
       { id: 5, title: 'Konya', value: 16, color: '#2c2c2c' }
     ];
     this.setState({ data });
-  }
+  };
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
         <ChartRace
           data={this.state.data}
-          backgroundColor='#fff'
+          backgroundColor="#fff"
           width={760}
           padding={12}
           itemHeight={58}
@@ -48,5 +45,4 @@ export default class App extends Component{
       </div>
     );
   }
-
 }
