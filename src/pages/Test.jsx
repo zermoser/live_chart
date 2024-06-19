@@ -18,7 +18,7 @@ const Test = () => {
         color: item.color,
       }))
       .sort((a, b) => b.value - a.value)
-      .slice(0, 12);
+      .slice(0, 12); // Ensure only top 12 entries are returned
     setCountryData(filteredData);
   };
 
@@ -29,7 +29,11 @@ const Test = () => {
   useEffect(() => {
     if (isRunning) {
       const interval = setInterval(() => {
-        setCurrentYear(prevYear => (prevYear < 2021 ? prevYear + 1 : 1950));
+        setCurrentYear(prevYear => {
+          const nextYear = prevYear < 2021 ? prevYear + 1 : 1950;
+          filterDataByYear(nextYear); // Update data when advancing to the next year
+          return nextYear;
+        });
       }, speed);
       return () => clearInterval(interval);
     }
@@ -87,7 +91,8 @@ const Test = () => {
             padding={12}
             itemHeight={58}
             titleStyle={{ font: 'normal 400 13px Arial', color: '#000' }}
-            animationDuration={speed}
+            valueStyle={{ font: 'normal 400 11px Arial', color: 'rgba(0, 0, 0, 0.42)' }}
+            animationDuration={speed} // Ensure animation duration matches the update speed
           />
         </div>
       </div>
